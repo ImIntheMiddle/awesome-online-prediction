@@ -1,6 +1,6 @@
-# Awesome-Online-Prediction [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# 😎 Awesome-Online-Prediction [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-😎 A curated list of awesome online-prediction papers, tools, and resources.
+A curated list of awesome online-prediction papers, tools, and resources.
 
 Created and hosted by the members of group 5 in The 28th Meeting on Image Recognition and Understanding (MIRU2025) Wakate program.
 
