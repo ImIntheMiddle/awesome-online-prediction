@@ -8,8 +8,11 @@ Created and hosted by the members of group 5 in The 28th **M**eeting on **I**mag
 
 オンライン予測に関する重要な論文，ライブラリ，学習のためのリソースなどをまとめています．
 
-# 📑 Papers
+## 📑 Papers
 
-# 🧰 Tools
+## 🧰 Tools
+### 1. [River](https://github.com/online-ml/river):
+  - a Python library for online machine learning (with over 5k stars), covering time series forecasting, bandits, and so on.
+  - オンライン機械学習のためのPythonライブラリで、時系列予測やバンディットなどをカバーしている。
 
-# 📚 Resources
+## 📚 Resources
