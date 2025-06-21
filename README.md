@@ -13,8 +13,8 @@ Created and hosted by the members of group 5 in The 28th **M**eeting on **I**mag
 > 
 > 特に重要なものには星印🌟を付しています．
 
-目標100本：
-![](https://geps.dev/progress/10)
+ノルマ50本：
+![](https://geps.dev/progress/20)
 
 # 📑 Papers（論文）
 ## Awesome-Surveys（サーベイ）
