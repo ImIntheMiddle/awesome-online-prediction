@@ -13,15 +13,15 @@ Super-awesome ones are marked with a star🌟.
 特に重要なものには星印🌟を付しています．
 
 目標100本：
-![](https://geps.dev/progress/4)
+![](https://geps.dev/progress/6)
 
-# 📑 Papers
+# 📑 Papers（論文）
 ## Awesome-Surveys（サーベイ）
 ### 1. 🌟[Online Learning: A Comprehensive Survey](https://arxiv.org/abs/1802.02871):
   - Published in 2018, this survey has been cited over 1,000 times and broadly covers online learning and online prediction topics.
   - 2018年の発表だが，1000回以上引用されているサーベイ．オンライン学習やオンライン予測の内容を広く取り上げている．
 
-# 🧰 Tools
+# 🧰 Tools（ツール）
 ## Awesome-Libraries（ライブラリ）
 ### 2. 🌟[River](https://github.com/online-ml/river):
   - a Python library for online machine learning (with over 5k stars), covering time series forecasting, bandits, and so on.
@@ -34,5 +34,16 @@ Super-awesome ones are marked with a star🌟.
   - Microsoftが中心となって開発している多言語実装の機械学習ライブラリ（8500スター超え）．オンライン学習を含む多様な学習様式に対応しており，Contextual bandits等を扱える．
 
 
-# 📚 Resources
+# 📚 Resources（学習リソース）
 ## Awesome-Textbooks（書籍）
+
+## Awesome-Japanese-Textbooks（日本語書籍）
+### 5. 🌟[機械学習プロフェッショナルシリーズ 「オンライン予測」](https://www.kspub.co.jp/book/detail/1529229.html):
+  - 著名な機械学習プロフェッショナルシリーズより，オンライン予測にフォーカスして書かれた一冊．エキスパート統合問題やオンライン凸最適化など，オンライン予測の主要な内容を一通り学べる．
+
+## Videos（動画）
+
+## Articles（記事）
+### 6. [Deus Ex Machina「Online learning and online prediction（オンライン学習とオンライン予測について）」](https://deus-ex-machina-ism.com/?p=17082):
+  - Good for understanding the confusing differences between online learning and online prediction, and for gaining an overview of their respective scopes.
+  - 混同しやすいオンライン学習とオンライン予測の違いを知り，それぞれの範囲を概観するのに良い．
