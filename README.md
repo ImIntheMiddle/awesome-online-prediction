@@ -11,7 +11,7 @@ Created and hosted by the members of group 5 in The 28th **M**eeting on **I**mag
 > [!TIP]
 > Super-awesome ones are marked with a star🌟.
 > 
-> 特に重要なものには星印🌟を付しています．
+> 特に重要・有用なものには星印🌟を付しています．
 
 ノルマ50本：
 ![](https://geps.dev/progress/20)
@@ -44,7 +44,7 @@ Created and hosted by the members of group 5 in The 28th **M**eeting on **I**mag
 
 ## Videos（動画）
 ### 6. [Predict with online prediction in Vertex AI](https://youtu.be/TEE7uUbXWDY?si=nHXMfZyTb13KpmWD)
-  - Awesome tutorial on how to make predictions on tabular dataset with online prediction in Vertex AI. [GitHub Link](https://github.com/rafaello9472/c4ds/tree/main/Predict%20with%20online%20prediction%20in%20Vertex%20AI)
+  - Awesome tutorial on how to make predictions on tabular datasets with online prediction in Vertex AI. [GitHub Link](https://github.com/rafaello9472/c4ds/tree/main/Predict%20with%20online%20prediction%20in%20Vertex%20AI)
   - GoogleのVertex AIを用いて表形式のデータに対してオンライン予測を行う方法についてのチュートリアル．[GitHub Link](https://github.com/rafaello9472/c4ds/tree/main/Predict%20with%20online%20prediction%20in%20Vertex%20AI)
 ### 7. ["Online" prediction vs "batch" prediction in machine learning](https://youtu.be/DnmWTIeQ7PM?si=Mg8xcbWXyzlP3vLY)
   - Awesome explanation by Chip Huyen on the difference between online prediction and more common batch prediction and their applications.
