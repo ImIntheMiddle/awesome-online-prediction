@@ -61,6 +61,8 @@ Created and hosted by the members of group 5 in The 28th **M**eeting on **I**mag
 ### 9. 🌟[Vowpal Wabbit](https://vowpalwabbit.org/index.html)
   - a machine learning library implemented in various languages (with over 8,500 stars) primarily developed by Microsoft. It supports various learning paradigms, including online learning, and can handle online prediction-related stuff like contextual bandits."
   - Microsoftが中心となって開発している多言語実装の機械学習ライブラリ（8500スター超え）．オンライン学習を含む多様な学習様式に対応しており，Contextual bandits等を扱える．
+### 10. [Jubatas](http://jubat.us/ja/index.html)
+  - PFNとNTTが共同で開発していたオンライン機械学習向けの分散処理フレームワーク．
 
 
 # 📚 Resources（学習リソース）
