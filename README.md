@@ -25,7 +25,10 @@ Created and hosted by the members of group 5 in The 28th **M**eeting on **I**mag
 ### 1. 🌟[Hoi _et al._(2018), Online Learning: A Comprehensive Survey](https://arxiv.org/abs/1802.02871)
   - Published in 2018, this survey has been cited over 1,000 times and broadly covers online learning and online prediction topics.
   - 2018年の発表だが，1000回以上引用されているサーベイ．オンライン学習やオンライン予測の内容を広く取り上げている．
-    
+
+## Awesome-Theoretical Research（基礎研究）
+
+## Awesome-Applied Research（応用研究）
 ### 2. [Švihrová _et al._ (2025), *Designing digital health interventions with causal inference and multi-armed bandits: a review*](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1435917/full)
   - ヘルスケア分野における Just-In-Time Interventiobn に多腕バンディット問題と因果解析を導入する方法論に関するレビュー論文。
   - 被験者の健康状態を逐次的にモニタリングし、適切なタイミングで"介入"して行動変容を促す枠組み。
