@@ -53,15 +53,16 @@ Created and hosted by the members of group 5 in The 28th **M**eeting on **I**mag
 # 🧰 Tools（ツール）
 ## Awesome-Libraries（ライブラリ）
 ### 7. 🌟[River](https://github.com/online-ml/river)
-  - a Python library for online machine learning (with over 5k stars), covering time series forecasting, bandits, and so on.
+  - A Python library for online machine learning (with over 5k stars), covering time series forecasting, bandits, and so on.
   - オンライン機械学習のためのPythonライブラリ（5000スター超え）で、時系列予測やバンディットなどをカバーしている。
 ### 8. [scikit-multiflow](https://scikit-multiflow.readthedocs.io/en/stable/index.html)
-  - a machine learning library for streaming data in Python (~0.8k stars). Although it can handle drift detection and has a variety of algorithms other than neural networks, River is more common nowadays.
+  - A machine learning library for streaming data in Python (~0.8k stars). Although it can handle drift detection and has a variety of algorithms other than neural networks, River is more common nowadays.
   - ストリーミングデータに適したPython実装の機械学習ライブラリ（約800スター）．ドリフト検出機能を備え，ニューラルネットワーク以外のアルゴリズムも豊富だが，現在ではRiverに主流が移った．
 ### 9. 🌟[Vowpal Wabbit](https://vowpalwabbit.org/index.html)
-  - a machine learning library implemented in various languages (with over 8,500 stars) primarily developed by Microsoft. It supports various learning paradigms, including online learning, and can handle online prediction-related stuff like contextual bandits."
+  - A machine learning library implemented in various languages (with over 8,500 stars), primarily developed by Microsoft. It supports various learning paradigms, including online learning, and can handle online prediction-related stuff like contextual bandits."
   - Microsoftが中心となって開発している多言語実装の機械学習ライブラリ（8500スター超え）．オンライン学習を含む多様な学習様式に対応しており，Contextual bandits等を扱える．
 ### 10. [Jubatas](http://jubat.us/ja/index.html)
+  - A distributed processing framework for online machine learning, jointly developed by PFN and NTT.
   - PFNとNTTが共同で開発していたオンライン機械学習向けの分散処理フレームワーク．
 
 
@@ -79,6 +80,9 @@ Created and hosted by the members of group 5 in The 28th **M**eeting on **I**mag
   - 同じく機械学習プロフェッショナルシリーズより．バンディット問題におけるリグレット解析や応用例などをより専門的に扱っている．
 
 ## Videos（動画）
+### 14. [An introduction to regret analysis: environment models and best-of-both-worlds](https://youtu.be/pCER8iuTdR4?si=XAL6lP5tj0mMf8yp)
+  - Awesome introduction on online learning, regret analysis, and best-of-both-worlds algorithms in the Machine Learning Summer School 2024.
+  - オンライン学習，リグレット解析，Best-of-both-worldsアルゴリズムについてのMachine Learning Summer School 2024での講演．
 ### 14. [Predict with online prediction in Vertex AI](https://youtu.be/TEE7uUbXWDY?si=nHXMfZyTb13KpmWD)
   - Awesome tutorial on how to make predictions on tabular datasets with online prediction in Vertex AI. [GitHub Link](https://github.com/rafaello9472/c4ds/tree/main/Predict%20with%20online%20prediction%20in%20Vertex%20AI)
   - GoogleのVertex AIを用いて表形式のデータに対してオンライン予測を行う方法についてのチュートリアル．[GitHub Link](https://github.com/rafaello9472/c4ds/tree/main/Predict%20with%20online%20prediction%20in%20Vertex%20AI)
