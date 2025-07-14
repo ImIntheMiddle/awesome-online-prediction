@@ -17,8 +17,8 @@ Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mag
 > 
 > 日本語のみの文献には日本🗾を付しています．
 
-ノルマ50本：
-![](https://geps.dev/progress/102)
+ノルマ100本：
+![](https://geps.dev/progress/51)
 
 # 📑 Papers（論文）
 ## Awesome-Surveys（サーベイ）
