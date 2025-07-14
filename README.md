@@ -18,7 +18,7 @@ Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mag
 > 日本語のみの文献には日本🗾を付しています．
 
 ノルマ50本：
-![](https://geps.dev/progress/92)
+![](https://geps.dev/progress/102)
 
 # 📑 Papers（論文）
 ## Awesome-Surveys（サーベイ）
@@ -64,115 +64,130 @@ Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mag
 ### 10. 🌟[Vowpal Wabbit](https://vowpalwabbit.org/index.html)
   - A machine learning library implemented in various languages (with over 8,500 stars), primarily developed by Microsoft. It supports various learning paradigms, including online learning, and can handle online prediction-related stuff like contextual bandits."
   - Microsoftが中心となって開発している多言語実装の機械学習ライブラリ（8500スター超え）．オンライン学習を含む多様な学習様式に対応しており，Contextual bandits等を扱える．
-### 11. [Jubatas](http://jubat.us/ja/index.html)
+### 11. 🌟[MOA](https://moa.cms.waikato.ac.nz/)
+  - An open-source Java framework designed for sequential data processing, boasting over 600 stars.
+  - JAVAで実装された，逐次データ処理用のオープンソースフレームワーク．600スター超え． 
+### 12. [CapyMOA](https://capymoa.org/)
+  - Python implementation of MOA, significantly faster than River and suited for real-time processing.
+  - MOAのPython版．Riverよりも大幅に高速化されており，リアルタイム処理向き．
+### 13. [Jubatas](http://jubat.us/ja/index.html)
   - A distributed processing framework for online machine learning, jointly developed by PFN and NTT.
   - PFNとNTTが共同で開発していたオンライン機械学習向けの分散処理フレームワーク．
+### 14. [Deep-River](https://online-ml.github.io/deep-river/)
+  - A library suitable for online learning of deep learning models implemented in PyTorch. Same developers as River (online-ml)."
+  - PyTorchで実装された深層学習モデルのオンライン学習に適したライブラリ．Riverと同じonline-mlが開発．
 
 ## Awesome-Probability Inequalities (確率不等式)
-### 12. [Probability inequalities](https://probability.oer.math.uconn.edu/wp-content/uploads/sites/2187/2020/08/ch15M.pdf)
+### 15. [Probability inequalities](https://probability.oer.math.uconn.edu/wp-content/uploads/sites/2187/2020/08/ch15M.pdf)
   - Introduction of several probability inequalities used in proofs.
   - 証明に使用される確率不等式がいくつか紹介されている．
-### 13. 🌟[Markov's Inequality ... Made Easy!](https://www.youtube.com/watch?v=e-nAr3MkAII)
+### 16. 🌟[Markov's Inequality ... Made Easy!](https://www.youtube.com/watch?v=e-nAr3MkAII)
   - Awesome YouTube video on Markov's inequality.
   - マルコフの不等式について解説したYouTube動画．
-### 14. 🌟[Chebyshev's Inequality ... Made Easy!](https://www.youtube.com/watch?v=mlelI1LA9o4)
+### 17. 🌟[Chebyshev's Inequality ... Made Easy!](https://www.youtube.com/watch?v=mlelI1LA9o4)
   - Awesome YouTube video on Chebyshev's inequality.
   - チェビシェフの不等式について解説したYouTube動画．
-### 15. 🗾[【大学数学】チェビシェフの不等式【確率統計】](https://www.youtube.com/watch?v=d-ugoDdXWrU)
+### 18. 🗾[【大学数学】チェビシェフの不等式【確率統計】](https://www.youtube.com/watch?v=d-ugoDdXWrU)
   - ヨビノリによるチェビシェフの不等式についての解説動画．
-### 16. [What is the Chernoff Bound?](https://www.youtube.com/watch?v=WKUeBoQp2Uo)
+### 19. [What is the Chernoff Bound?](https://www.youtube.com/watch?v=WKUeBoQp2Uo)
   - Awesome YouTube video on Chernoff bound.
   - チェルノフ限界について解説したYouTube動画．
-### 17. [L 27 | Cauchy Schwarz Inequality | Probability & Statistics | Digital Communication](https://www.youtube.com/watch?v=14-JD5KiUz0)
+### 20. [L 27 | Cauchy Schwarz Inequality | Probability & Statistics | Digital Communication](https://www.youtube.com/watch?v=14-JD5KiUz0)
   - Awesome YouTube video on Cauchy-Schwarz inequality.
   - コーシー＝シュワルツの不等式について解説したYouTube動画．
   - チェルノフ限界について解説したYouTube動画．
-### 18. [Jensen's Inequality](https://www.youtube.com/watch?v=u0_X2hX6DWE)
+### 21. [Jensen's Inequality](https://www.youtube.com/watch?v=u0_X2hX6DWE)
   - Awesome YouTube video on Jensen's inequality.
   - イェンセンの不等式について解説したYouTube動画．
-### 19. [A Visual Introduction to Hoeffding's Inequality - Statistical Learning Theory](https://www.youtube.com/watch?v=lsYPC0MuLJA)
+### 22. [A Visual Introduction to Hoeffding's Inequality - Statistical Learning Theory](https://www.youtube.com/watch?v=lsYPC0MuLJA)
   - Awesome YouTube video visualizing the concept of Hoeffding's inequality.
   - へフディングの不等式について視覚的に解説したYouTube動画．
-### 20. [Supplemental Lecture notes Hoeffding’s inequality](https://cs229.stanford.edu/extra-notes/hoeffding.pdf)
+### 23. [Supplemental Lecture notes Hoeffding’s inequality](https://cs229.stanford.edu/extra-notes/hoeffding.pdf)
   - Lecture material of Stanford University, including an explanation of moment generating functions and a proof of Hoeffding's inequality.
   - モーメント母関数の解説やHoeffdingの不等式の証明を含んだ，スタンフォード大学の講義資料．
-### 21. 🗾[ヘフディングの不等式(Hoeffding's inequality)と諸々の確率の評価の不等式](https://ludu-vorton.hatenablog.com/entry/2019/06/06/073000)
+### 24. 🗾[ヘフディングの不等式(Hoeffding's inequality)と諸々の確率の評価の不等式](https://ludu-vorton.hatenablog.com/entry/2019/06/06/073000)
   - 統計的学習理論で確率の評価で用いられる様々な不等式（へフディングの不等式を含む）についての解説．
 
 ## Awesome-Convex Optimization (凸最適化)
-### 22. [Subgradients/Subderivatives - Convex Analysis](https://www.youtube.com/watch?v=o0rOaN5uo64)
+### 25. [Subgradients/Subderivatives - Convex Analysis](https://www.youtube.com/watch?v=o0rOaN5uo64)
   - Awesome YouTube video on subgradients and subderivatives.
   - 劣勾配/劣微分について解説したYouTube動画．
-### 23. [Lipschitz Continuity | Lipschitz Condition](https://www.youtube.com/watch?v=P-OFTp3BPis) 
+### 26. [Lipschitz Continuity | Lipschitz Condition](https://www.youtube.com/watch?v=P-OFTp3BPis) 
   - Awesome YouTube video on Lipschitz continuity.
   - リプシッツ連続について解説したYouTube動画．
-### 24. 🗾[リプシッツ連続とは～定義と性質・他の連続性との関係など～](https://mathlandscape.com/lipschitz/)
+### 27. 🗾[リプシッツ連続とは～定義と性質・他の連続性との関係など～](https://mathlandscape.com/lipschitz/)
   - リプシッツ連続の定義や例，性質，その他の連続性との関連性について解説した記事．
-### 25. [Lagrange Multipliers](https://www.youtube.com/watch?v=5-CUqogfPLY)
+### 28. [Lagrange Multipliers](https://www.youtube.com/watch?v=5-CUqogfPLY)
   - Awesome YouTube video on Lagrange multipliers.
   - ラグランジュの未定乗数法について解説したYouTube動画．
-### 26. [Understanding Lagrange Multipliers Visually](https://www.youtube.com/watch?v=5A39Ht9Wcu0)
+### 29. [Understanding Lagrange Multipliers Visually](https://www.youtube.com/watch?v=5A39Ht9Wcu0)
   - Awesome YouTube video visualizing the concept of Lagrange multipliers.
   - ラグランジュの未定乗数法について視覚的に解説したYouTube動画．
-### 27. 🗾[ラグランジュの未定乗数法の気持ち【条件付き極値問題】](https://www.youtube.com/watch?v=vAwqZmwf4W8)
+### 30. 🗾[ラグランジュの未定乗数法の気持ち【条件付き極値問題】](https://www.youtube.com/watch?v=vAwqZmwf4W8)
   - ヨビノリによるラグランジュの未定乗数法についての解説動画．図形的意味についての解説を含む．
-### 28. 🗾[制約付き最適化問題(KKT条件/ラグランジュ未定乗数法)](https://www.youtube.com/watch?v=bdWTCq98H5c)
+### 31. 🗾[制約付き最適化問題(KKT条件/ラグランジュ未定乗数法)](https://www.youtube.com/watch?v=bdWTCq98H5c)
   - ヨビノリによるラグランジュの未定乗数法についての解説動画．KKT条件（不等式制約の場合の解法）についての解説を含む．
-### 29. 🗾[ラグランジュの未定乗数法とは～意味と証明～](https://mathlandscape.com/lagrange-multiplier/)
+### 32. 🗾[ラグランジュの未定乗数法とは～意味と証明～](https://mathlandscape.com/lagrange-multiplier/)
   - ラグランジュの未定乗数法の意味，定理とその証明を解説した記事．
 
 ## Awesome-Gradient Descent (勾配降下法)
-### 30. [Gradient descent, how neural networks learn | Deep Learning Chapter 2](https://youtu.be/IHZwWFHWa-w?si=zRN94_SPD4hrQUUI)
+### 33. [Gradient descent, how neural networks learn | Deep Learning Chapter 2](https://youtu.be/IHZwWFHWa-w?si=zRN94_SPD4hrQUUI)
   - Awesome explanation of gradient descent in deep learning by 3Blue1Brown.
   - 3Blue1Brownによる，深層学習における勾配降下法についての解説．
-### 31. [Optimization for Deep Learning (Momentum, RMSprop, AdaGrad, Adam)](https://youtu.be/NE88eqLngkg?si=qSmU5hpaeYiUtEZw)
+### 34. [Optimization for Deep Learning (Momentum, RMSprop, AdaGrad, Adam)](https://youtu.be/NE88eqLngkg?si=qSmU5hpaeYiUtEZw)
   - Awesome explanation of the various online learning methods used in deep learning.
   - 深層学習に用いられる様々なオンライン学習手法についての解説．
-### 32. [Mini Batch Gradient Descent (C2W2L01)](https://www.youtube.com/watch?v=4qJaSmvhxi8)
+### 35. [Mini Batch Gradient Descent (C2W2L01)](https://www.youtube.com/watch?v=4qJaSmvhxi8)
   - Awesome YouTube video by Andrew Ng explaining mini-batch gradient descent.
   - Andrew Ngによる，ミニバッチ勾配降下法について解説したYouTube動画.
-### 33. [Understanding Mini-Batch Gradient Descent (C2W2L02)](https://www.youtube.com/watch?v=-_4Zi8fCZO4)
+### 36. [Understanding Mini-Batch Gradient Descent (C2W2L02)](https://www.youtube.com/watch?v=-_4Zi8fCZO4)
   - The second YouTube video by Andrew Ng explaining mini-batch gradient descent.
   - Andrew Ngによる，ミニバッチ勾配降下法について解説したYouTube動画の２本目.
 
 # 📚 Resources（学習リソース）
 ## Awesome-slides（スライド）
-### 34. [Follow the Leader: Theory and Applications](https://www.cs.ubc.ca/labs/lci/mlrg/slides/2019_summer_3_follow_the_leader.pdf)
+### 37. [Follow the Leader: Theory and Applications](https://www.cs.ubc.ca/labs/lci/mlrg/slides/2019_summer_3_follow_the_leader.pdf)
   - Slides explaining Follow The Leader (FTL) and its derivative algorithms in online learning, along with their applications.
   - オンライン学習におけるFollow The Leader (FTL) やその派生アルゴリズム，そしてそれらの応用について解説したスライド．
-### 35.🗾[オンライン予測の理論と応用](https://www.lab2.kuis.kyoto-u.ac.jp/keisan-genkai/reports/2005/zentai_1/04-takimoto.pdf)
+### 38.🗾[オンライン予測の理論と応用](https://www.lab2.kuis.kyoto-u.ac.jp/keisan-genkai/reports/2005/zentai_1/04-takimoto.pdf)
   - 機械学習プロフェッショナルシリーズ「オンライン予測」（後述）の著者でもある瀧本英二先生によるスライド．オンライン予測におけるエキスパート統合問題とその応用例を取り上げている．
 
 ## Awesome-Textbooks（書籍）
-### 36. 🌟🗾[機械学習プロフェッショナルシリーズ 「オンライン予測」](https://www.kspub.co.jp/book/detail/1529229.html)
+### 39. 🌟🗾[機械学習プロフェッショナルシリーズ 「オンライン予測」](https://www.kspub.co.jp/book/detail/1529229.html)
   - 著名な機械学習プロフェッショナルシリーズより，オンライン予測にフォーカスして書かれた一冊．エキスパート統合問題やオンライン凸最適化など，オンライン予測の主要な内容を一通り学べる．
-### 37. 🗾[機械学習プロフェッショナルシリーズ 「オンライン機械学習」](https://www.kspub.co.jp/book/detail/1529038.html)
+### 40. 🗾[機械学習プロフェッショナルシリーズ 「オンライン機械学習」](https://www.kspub.co.jp/book/detail/1529038.html)
   - 同じく機械学習プロフェッショナルシリーズより，オンライン機械学習を取り上げた一冊（出版は「オンライン予測」よりも前）．オンライン予測を含む，より広範な内容を学べる．「オンライン予測」よりも平易．
-### 38. 🗾[機械学習プロフェッショナルシリーズ 「バンディット問題の理論とアルゴリズム」](https://www.kspub.co.jp/book/detail/1529175.html)
+### 41. 🗾[機械学習プロフェッショナルシリーズ 「バンディット問題の理論とアルゴリズム」](https://www.kspub.co.jp/book/detail/1529175.html)
   - 同じく機械学習プロフェッショナルシリーズより．バンディット問題におけるリグレット解析や応用例などをより専門的に扱っている．
 
 ## Videos（動画）
-### 39. 🌟[An introduction to regret analysis: environment models and best-of-both-worlds](https://youtu.be/pCER8iuTdR4?si=XAL6lP5tj0mMf8yp)
+### 42. 🌟[An introduction to regret analysis: environment models and best-of-both-worlds](https://youtu.be/pCER8iuTdR4?si=XAL6lP5tj0mMf8yp)
   - Awesome introduction on online learning, regret analysis, and best-of-both-worlds algorithms in the Machine Learning Summer School 2024.
   - オンライン学習，リグレット解析，Best-of-both-worldsアルゴリズムについてのMachine Learning Summer School 2024での講演．
-### 40. [Predict with online prediction in Vertex AI](https://youtu.be/TEE7uUbXWDY?si=nHXMfZyTb13KpmWD)
+### 43. [Predict with online prediction in Vertex AI](https://youtu.be/TEE7uUbXWDY?si=nHXMfZyTb13KpmWD)
   - Awesome tutorial on how to make predictions on tabular datasets with online prediction in Vertex AI. [GitHub Link](https://github.com/rafaello9472/c4ds/tree/main/Predict%20with%20online%20prediction%20in%20Vertex%20AI)
   - GoogleのVertex AIを用いて表形式のデータに対してオンライン予測を行う方法についてのチュートリアル．[GitHub Link](https://github.com/rafaello9472/c4ds/tree/main/Predict%20with%20online%20prediction%20in%20Vertex%20AI)
-### 41. ["Online" prediction vs "batch" prediction in machine learning](https://youtu.be/DnmWTIeQ7PM?si=Mg8xcbWXyzlP3vLY)
+### 44. ["Online" prediction vs "batch" prediction in machine learning](https://youtu.be/DnmWTIeQ7PM?si=Mg8xcbWXyzlP3vLY)
   - Awesome explanation by Chip Huyen on the difference between online prediction and more common batch prediction and their applications.
   - Chip Huyenによる，オンライン予測と馴染み深いバッチ予測との違いやそれらの応用例についての短い解説．
-### 42. [ML Drift: Identifying Issues Before You Have a Problem](https://youtu.be/uOG685WFO00?si=7_ti70FDTD-B5tbO)
+### 45. [ML Drift: Identifying Issues Before You Have a Problem](https://youtu.be/uOG685WFO00?si=7_ti70FDTD-B5tbO)
   - Awesome presentation by Amy Hodler on ML drifts and how to fix it. [Blog](https://www.fiddler.ai/blog/drift-in-machine-learning-how-to-identify-issues-before-you-have-a-problem)
   - Amy Hodlerによる，MLドリフトやその解決方法についてのプレゼンテーション．[ブログ](https://www.fiddler.ai/blog/drift-in-machine-learning-how-to-identify-issues-before-you-have-a-problem)
 
 ## Articles（記事）
-### 43. 🗾[私のブックマーク「オンライン学習」](https://www.ai-gakkai.or.jp/resource/my-bookmark/my-bookmark_vol30-no5/)
+### 46. [What is Online Machine Learning?](https://medium.com/value-stream-design/online-machine-learning-515556ff72c5)
+  - A blog post explaining the concept of online machine learning.
+  - オンライン学習のコンセプトについて解説したブログ記事．
+### 47. [Anomalies detection using River](https://medium.com/spikelab/anomalies-detection-using-river-398544d3536)
+  - A blog post explaining anomaly detection using River, including practical code examples.
+  - Riverを用いた異常検知について，実際のコードを交えて解説したブログ記事．
+### 48. 🗾[私のブックマーク「オンライン学習」](https://www.ai-gakkai.or.jp/resource/my-bookmark/my-bookmark_vol30-no5/)
   - 人工知能学会誌の連載「私のブックマーク」でオンライン学習を特集した際の記事．オンライン学習に関するサーベイやチュートリアル，関連学会，関連ライブラリをまとめている．
-### 44. 🗾[私のブックマーク「多腕バンディット問題」](https://www.ai-gakkai.or.jp/resource/my-bookmark/my-bookmark_vol31-no5/)
+### 49. 🗾[私のブックマーク「多腕バンディット問題」](https://www.ai-gakkai.or.jp/resource/my-bookmark/my-bookmark_vol31-no5/)
   - 同じく「私のブックマーク」より，多腕バンディット問題を特集した回の記事．逐次的な意思決定であるバンディット問題に関するチュートリアルや関連学会，関連ライブラリ，重要論文をまとめている．
-### 45. [Deus Ex Machina「Online learning and online prediction（オンライン学習とオンライン予測について）」](https://deus-ex-machina-ism.com/?p=17082)
+### 50. [Deus Ex Machina「Online learning and online prediction（オンライン学習とオンライン予測について）」](https://deus-ex-machina-ism.com/?p=17082)
   - Good for understanding the confusing differences between online learning and online prediction, and for gaining an overview of their respective scopes.
   - 混同しやすいオンライン学習とオンライン予測の違いを知り，それぞれの範囲を概観するのに良い．
-### 46. [Deus Ex Machina「Overview of online forecasting technology and various applications and implementations（オンライン予測技術の概要と様々な適用事例と実装例）」](https://deus-ex-machina-ism.com/?p=53594)
+### 51. [Deus Ex Machina「Overview of online forecasting technology and various applications and implementations（オンライン予測技術の概要と様々な適用事例と実装例）」](https://deus-ex-machina-ism.com/?p=53594)
   - It introduces algorithms, libraries, applications, and suitable books for learning used in online prediction.
   - オンライン予測で使用されるアルゴリズム，ライブラリ，応用例，学習に適した書籍が紹介されている．
