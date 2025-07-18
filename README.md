@@ -18,7 +18,7 @@ Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mag
 > 日本語のみの文献には日本🗾を付しています．
 
 ノルマ100本：
-![](https://geps.dev/progress/60)
+![](https://geps.dev/progress/63)
 
 # 📑 Papers（論文）
 ## Awesome-Surveys（サーベイ）
@@ -36,28 +36,37 @@ Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mag
   - a
 
 ## Awesome-Theoretical Research（基礎研究）
-### 5. [Dai _et al._(2025), Label Shift Meets Online Learning: Ensuring Consistent Adaptation with Universal Dynamic Regret](https://openaccess.thecvf.com/content/CVPR2025/html/Dai_Label_Shift_Meets_Online_Learning_Ensuring_Consistent_Adaptation_with_Universal_CVPR_2025_paper.html)
+### 5. [Suehiro _et al._(ALT2012), Online Prediction under Submodular Constraints](https://api.lib.kyushu-u.ac.jp/opac_download_md/1932327/alt12.pdf)
+  - a
+  - a
+### 6. [Dai _et al._(CVPR2025), Label Shift Meets Online Learning: Ensuring Consistent Adaptation with Universal Dynamic Regret](https://openaccess.thecvf.com/content/CVPR2025/html/Dai_Label_Shift_Meets_Online_Learning_Ensuring_Consistent_Adaptation_with_Universal_CVPR_2025_paper.html)
   - a
   - a
 
 ## Awesome-Applied Research（応用研究）
-### 6. [Švihrová _et al._ (2025), *Designing digital health interventions with causal inference and multi-armed bandits: a review*](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1435917/full)
+### 7. [Song _et al._ (Machine Learning, 2024), No Regret Sample Selection with Noisy Labels](https://arxiv.org/abs/2003.03179)
+  - a
+  - a
+### 8. [Song _et al._ (WACV2020), Adaptive Aggregation of Arbitrary Online Trackers with a Regret Bound](https://openaccess.thecvf.com/content_WACV_2020/papers/Song_Adaptive_Aggregation_of_Arbitrary_Online_Trackers_with_a_Regret_Bound_WACV_2020_paper.pdf)
+  - a
+  - a
+### 9. [Matsuo _et al._(ICASSP2023), Learning from Label Proportion with Online Pseudo-Label Decision by Regret Minimization](https://arxiv.org/abs/2302.08947)
+  - a
+  - a
+### 10. [Švihrová _et al._ (2025), *Designing digital health interventions with causal inference and multi-armed bandits: a review*](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1435917/full)
   - ヘルスケア分野における Just-In-Time Interventiobn に多腕バンディット問題と因果解析を導入する方法論に関するレビュー論文。
   - 被験者の健康状態を逐次的にモニタリングし、適切なタイミングで"介入"して行動変容を促す枠組み。
 
-### 7. [Kumar _et al._ (2024), *Using adaptive bandit experiments to increase and investigate engagement in mental health*](https://ojs.aaai.org/index.php/AAAI/article/view/30328)
+### 11. [Kumar _et al._ (2024), *Using adaptive bandit experiments to increase and investigate engagement in mental health*](https://ojs.aaai.org/index.php/AAAI/article/view/30328)
   - メンタルヘルスにおける個別化医療にバンディット問題を適用することを目指したシミュレーション論文．
 
-### 8. [Gutiérrez _et al._ (2017), *A Multi-armed Bandit to Smartly Select a Training Set from Big Medical Data*](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_5)
+### 12. [Gutiérrez _et al._ (2017), *A Multi-armed Bandit to Smartly Select a Training Set from Big Medical Data*](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_5)
   - 大規模な医療画像データから訓練データセットを適切かつ効率的に選択する問題を多腕バンディット問題として定式化した。
   - 脳画像から得られる特徴量から年齢を予測する問題において、事前に観測できるメタデータから有用なサンプルを選択するという問題に落とし込んだ。
   - データをクラスタリングし、有益そうなクラスタを活用しつつ、他のクラスタも探索していく、というアプローチをとった。
   - 手法は線形回帰ベースで深層学習ではない
 
-### 9. [Zheng and Kwok (2017), *Follow the Moving Leader in Deep Learning*](https://proceedings.mlr.press/v70/zheng17a.html)
-  - **谷口調査中**
-
-### 10. [Dai _et al._ (2025), Label Shift Meets Online Learning: Ensuring Consistent Adaptation with Universal Dynamic Regret](https://proceedings.neurips.cc/paper_files/paper/2023/hash/cf42f133f355e0e07a8957b508b26a1b-Abstract-Conference.html)
+### 13. [Zheng and Kwok (2017), *Follow the Moving Leader in Deep Learning*](https://proceedings.mlr.press/v70/zheng17a.html)
   - **谷口調査中**
 
 ================================
