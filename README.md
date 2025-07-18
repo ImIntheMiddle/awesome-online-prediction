@@ -18,7 +18,7 @@ Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mag
 > 日本語のみの文献には日本🗾を付しています．
 
 ノルマ100本：
-![](https://geps.dev/progress/57)
+![](https://geps.dev/progress/60)
 
 # 📑 Papers（論文）
 ## Awesome-Surveys（サーベイ）
@@ -28,27 +28,36 @@ Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mag
 ### 2. 🌟[Foster and Rakhlin (2023), Foundations of Reinforcement Learning and Interactive Decision Making](https://arxiv.org/abs/2312.16730)
   - This lecture note introduces various decision-making problems, including online learning and prediction, and explains the theoretical foundations of online reinforcement learning.
   - オンライン学習・予測を含めた各種の意思決定問題について紹介し，オンライン強化学習の理論的基礎までを解説した講義ノート．
+### 3. [Online Learning and Online Convex Optimization](https://www.cs.huji.ac.il/~shais/papers/OLsurvey.pdf)
+  - a
+  - a
+### 4. [Orabona (2019), A Modern Introduction to Online Learning](https://arxiv.org/abs/1912.13213)
+  - a
+  - a
 
 ## Awesome-Theoretical Research（基礎研究）
+### 5. [Dai _et al._(2025), Label Shift Meets Online Learning: Ensuring Consistent Adaptation with Universal Dynamic Regret](https://openaccess.thecvf.com/content/CVPR2025/html/Dai_Label_Shift_Meets_Online_Learning_Ensuring_Consistent_Adaptation_with_Universal_CVPR_2025_paper.html)
+  - a
+  - a
 
 ## Awesome-Applied Research（応用研究）
-### 3. [Švihrová _et al._ (2025), *Designing digital health interventions with causal inference and multi-armed bandits: a review*](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1435917/full)
+### 6. [Švihrová _et al._ (2025), *Designing digital health interventions with causal inference and multi-armed bandits: a review*](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1435917/full)
   - ヘルスケア分野における Just-In-Time Interventiobn に多腕バンディット問題と因果解析を導入する方法論に関するレビュー論文。
   - 被験者の健康状態を逐次的にモニタリングし、適切なタイミングで"介入"して行動変容を促す枠組み。
 
-### 4. [Kumar _et al._ (2024), *Using adaptive bandit experiments to increase and investigate engagement in mental health*](https://ojs.aaai.org/index.php/AAAI/article/view/30328)
+### 7. [Kumar _et al._ (2024), *Using adaptive bandit experiments to increase and investigate engagement in mental health*](https://ojs.aaai.org/index.php/AAAI/article/view/30328)
   - メンタルヘルスにおける個別化医療にバンディット問題を適用することを目指したシミュレーション論文．
 
-### 5. [Gutiérrez _et al._ (2017), *A Multi-armed Bandit to Smartly Select a Training Set from Big Medical Data*](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_5)
+### 8. [Gutiérrez _et al._ (2017), *A Multi-armed Bandit to Smartly Select a Training Set from Big Medical Data*](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_5)
   - 大規模な医療画像データから訓練データセットを適切かつ効率的に選択する問題を多腕バンディット問題として定式化した。
   - 脳画像から得られる特徴量から年齢を予測する問題において、事前に観測できるメタデータから有用なサンプルを選択するという問題に落とし込んだ。
   - データをクラスタリングし、有益そうなクラスタを活用しつつ、他のクラスタも探索していく、というアプローチをとった。
   - 手法は線形回帰ベースで深層学習ではない
 
-### 6. [Zheng and Kwok (2017), *Follow the Moving Leader in Deep Learning*](https://proceedings.mlr.press/v70/zheng17a.html)
+### 9. [Zheng and Kwok (2017), *Follow the Moving Leader in Deep Learning*](https://proceedings.mlr.press/v70/zheng17a.html)
   - **谷口調査中**
 
-### 7. [Dai _et al._ (2025), Label Shift Meets Online Learning: Ensuring Consistent Adaptation with Universal Dynamic Regret](https://proceedings.neurips.cc/paper_files/paper/2023/hash/cf42f133f355e0e07a8957b508b26a1b-Abstract-Conference.html)
+### 10. [Dai _et al._ (2025), Label Shift Meets Online Learning: Ensuring Consistent Adaptation with Universal Dynamic Regret](https://proceedings.neurips.cc/paper_files/paper/2023/hash/cf42f133f355e0e07a8957b508b26a1b-Abstract-Conference.html)
   - **谷口調査中**
 
 ================================
@@ -158,7 +167,7 @@ Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mag
 ### 83. [Follow the Leader: Theory and Applications](https://www.cs.ubc.ca/labs/lci/mlrg/slides/2019_summer_3_follow_the_leader.pdf)
   - Slides explaining Follow The Leader (FTL) and its derivative algorithms in online learning, along with their applications.
   - オンライン学習におけるFollow The Leader (FTL) やその派生アルゴリズム，そしてそれらの応用について解説したスライド．
-### 84. [](https://ibisml.org/archive/ibis2014/ibis2014_bandit.pdf)
+### 84. 🗾[多腕バンディット問題の理論とアルゴリズム](https://ibisml.org/archive/ibis2014/ibis2014_bandit.pdf)
   - a
   - a
 ### 85.🗾[オンライン予測の理論と応用](https://www.lab2.kuis.kyoto-u.ac.jp/keisan-genkai/reports/2005/zentai_1/04-takimoto.pdf)
