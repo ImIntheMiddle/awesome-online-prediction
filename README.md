@@ -18,7 +18,7 @@ Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mag
 > 日本語のみの文献には日本🗾を付しています．
 
 ノルマ100本：
-![](https://geps.dev/progress/81)
+![](https://geps.dev/progress/84)
 
 # 📑 Papers（論文）
 ## Awesome-Surveys（サーベイ）
@@ -28,7 +28,7 @@ Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mag
 ### 2. 🌟[Foster and Rakhlin (2023), Foundations of Reinforcement Learning and Interactive Decision Making](https://arxiv.org/abs/2312.16730)
   - This lecture note introduces various decision-making problems, including online learning and prediction, and explains the theoretical foundations of online reinforcement learning.
   - オンライン学習・予測を含めた各種の意思決定問題について紹介し，オンライン強化学習の理論的基礎までを解説した講義ノート．
-### 3. [Online Learning and Online Convex Optimization](https://www.cs.huji.ac.il/~shais/papers/OLsurvey.pdf)
+### 3. 🌟[Shalev-Shwartz (Foundations and Trends in Machine Learning, 2011), Online Learning and Online Convex Optimization](https://www.cs.huji.ac.il/~shais/papers/OLsurvey.pdf)
   - a
   - a
 ### 4. [Orabona (2019), A Modern Introduction to Online Learning](https://arxiv.org/abs/1912.13213)
@@ -45,78 +45,87 @@ Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mag
 ### 7. [Hazan _et al._ (Machine Learning, 2007), Logarithmic Regret Algorithms for Online Convex Optimization](https://link.springer.com/article/10.1007/s10994-007-5016-8)
   - a
   - a
-### 8. [Crammer _et al._(EMNLP2009), Multi-Class Confidence Weighted Algorithms](https://aclanthology.org/D09-1052/)
+### 8. [Cesa-Bianchi _et al._ (Machine Learning, 2007), Improved second-order bounds for prediction with expert advice](https://arxiv.org/abs/math/0602629)
   - a
   - a
-### 9. [Crammer _et al._ (NeurIPS2009), Adaptive Regularization of Weight Vectors](https://papers.nips.cc/paper_files/paper/2009/hash/8ebda540cbcc4d7336496819a46a1b68-Abstract.html)
+### 9. [Crammer _et al._(EMNLP2009), Multi-Class Confidence Weighted Algorithms](https://aclanthology.org/D09-1052/)
   - a
   - a
-### 10. [Duchi _et al._ (JMLR, 2010), Adaptive Subgradient Methods for Online Learning and Stochastic Optimization](https://jmlr.org/papers/v12/duchi11a.html)
+### 10. [Crammer _et al._ (NeurIPS2009), Adaptive Regularization of Weight Vectors](https://papers.nips.cc/paper_files/paper/2009/hash/8ebda540cbcc4d7336496819a46a1b68-Abstract.html)
   - a
   - a
-### 11. [McDonald _et al._(NAACL HLT2010), Distributed Training Strategies for the Structured Perceptron](https://aclanthology.org/N10-1069.pdf)
+### 11. [Duchi _et al._ (JMLR, 2010), Adaptive Subgradient Methods for Online Learning and Stochastic Optimization](https://jmlr.org/papers/v12/duchi11a.html)
   - a
   - a
-### 12. [Chu _et al._(KDD2011), Unbiased online active learning in data streams](https://dl.acm.org/doi/10.1145/2020408.2020444)
+### 12. [McDonald _et al._(NAACL HLT2010), Distributed Training Strategies for the Structured Perceptron](https://aclanthology.org/N10-1069.pdf)
   - a
   - a
-### 13. [Suehiro _et al._(ALT2012), Online Prediction under Submodular Constraints](https://api.lib.kyushu-u.ac.jp/opac_download_md/1932327/alt12.pdf)
+### 13. [Chu _et al._(KDD2011), Unbiased online active learning in data streams](https://dl.acm.org/doi/10.1145/2020408.2020444)
   - a
   - a
-### 14. [Ho _et al._(NeurIPS2013), More Effective Distributed ML via a Stale Synchronous Parallel Parameter Server](https://fid3024.github.io/papers/2013%20-%20More%20Effective%20Distributed%20ML%20via%20a%20Stale%20Sychronous%20Parallel%20Parameter%20Server.pdf)
+### 14. [Suehiro _et al._(ALT2012), Online Prediction under Submodular Constraints](https://api.lib.kyushu-u.ac.jp/opac_download_md/1932327/alt12.pdf)
   - a
   - a
-### 15. [Wang _et al._ (ICML2012), Exact Soft Confidence-Weighted Learning](https://arxiv.org/abs/1206.4612)
+### 15. [Arora _et al._(Theory of Computing, 2012), The Multiplicative Weights Update Method: a Meta-Algorithm and Applications](https://theoryofcomputing.org/articles/v008a006/)
   - a
   - a
-### 16. [McMahan_ et al._(KDD2013), Ad Click Prediction: a View from the Trenches](https://research.google/pubs/ad-click-prediction-a-view-from-the-trenches/)
+### 16. [Wang _et al._ (ICML2012), Exact Soft Confidence-Weighted Learning](https://arxiv.org/abs/1206.4612)
   - a
   - a
-### 17. [Kingma and Ba (ICLR2015), Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
+### 17. [Ho _et al._(NeurIPS2013), More Effective Distributed ML via a Stale Synchronous Parallel Parameter Server](https://fid3024.github.io/papers/2013%20-%20More%20Effective%20Distributed%20ML%20via%20a%20Stale%20Sychronous%20Parallel%20Parameter%20Server.pdf)
   - a
   - a
-### 18. [Zhang _et al._(NeurIPS2018), Adaptive Online Learning in Dynamic Environments](https://arxiv.org/abs/1810.10815)
+### 18. [McMahan_ et al._(KDD2013), Ad Click Prediction: a View from the Trenches](https://research.google/pubs/ad-click-prediction-a-view-from-the-trenches/)
   - a
   - a
-### 19. [Finn _et al._ (ICLR2019), Online Meta-Learning](https://arxiv.org/abs/1902.08438)
+### 19. [Gaillard et al. (COLT2014), A Second-order Bound with Excess Losses](https://arxiv.org/abs/1402.2044)
   - a
   - a
-### 20. [Zhao _et al._(NeurIPS2020), Dynamic Regret of Convex and Smooth Functions](https://arxiv.org/abs/2007.03479)
+### 20. [Kingma and Ba (ICLR2015), Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
   - a
   - a
-### 21. [Baby _et al._ (NeurIPS2023), Online Label Shift: Optimal Dynamic Regret meets Practical Algorithms](https://neurips.cc/virtual/2023/poster/71994)
+### 21. [Zhang _et al._(NeurIPS2018), Adaptive Online Learning in Dynamic Environments](https://arxiv.org/abs/1810.10815)
   - a
   - a
-### 22. [Dai _et al._(CVPR2025), Label Shift Meets Online Learning: Ensuring Consistent Adaptation with Universal Dynamic Regret](https://openaccess.thecvf.com/content/CVPR2025/html/Dai_Label_Shift_Meets_Online_Learning_Ensuring_Consistent_Adaptation_with_Universal_CVPR_2025_paper.html)
+### 22. [Finn _et al._ (ICLR2019), Online Meta-Learning](https://arxiv.org/abs/1902.08438)
+  - a
+  - a
+### 23. [Zhao _et al._(NeurIPS2020), Dynamic Regret of Convex and Smooth Functions](https://arxiv.org/abs/2007.03479)
+  - a
+  - a
+### 24. [Baby _et al._ (NeurIPS2023), Online Label Shift: Optimal Dynamic Regret meets Practical Algorithms](https://neurips.cc/virtual/2023/poster/71994)
+  - a
+  - a
+### 25. [Dai _et al._(CVPR2025), Label Shift Meets Online Learning: Ensuring Consistent Adaptation with Universal Dynamic Regret](https://openaccess.thecvf.com/content/CVPR2025/html/Dai_Label_Shift_Meets_Online_Learning_Ensuring_Consistent_Adaptation_with_Universal_CVPR_2025_paper.html)
   - a
   - a
 
 ## Awesome-Applied Research（応用研究）
-### 23. [Bashratat _et al._(CVPR2008), Learning object motion patterns for anomaly detection and improved object detection](https://ieeexplore.ieee.org/document/4587510)
+### 26. [Bashratat _et al._(CVPR2008), Learning object motion patterns for anomaly detection and improved object detection](https://ieeexplore.ieee.org/document/4587510)
   - a
   - a
-### 24. [Song _et al._ (Machine Learning, 2024), No Regret Sample Selection with Noisy Labels](https://arxiv.org/abs/2003.03179)
+### 27. [Song _et al._ (Machine Learning, 2024), No Regret Sample Selection with Noisy Labels](https://arxiv.org/abs/2003.03179)
   - a
   - a
-### 25. [Song _et al._ (WACV2020), Adaptive Aggregation of Arbitrary Online Trackers with a Regret Bound](https://openaccess.thecvf.com/content_WACV_2020/papers/Song_Adaptive_Aggregation_of_Arbitrary_Online_Trackers_with_a_Regret_Bound_WACV_2020_paper.pdf)
+### 28. [Song _et al._ (WACV2020), Adaptive Aggregation of Arbitrary Online Trackers with a Regret Bound](https://openaccess.thecvf.com/content_WACV_2020/papers/Song_Adaptive_Aggregation_of_Arbitrary_Online_Trackers_with_a_Regret_Bound_WACV_2020_paper.pdf)
   - a
   - a
-### 26. [Matsuo _et al._(ICASSP2023), Learning from Label Proportion with Online Pseudo-Label Decision by Regret Minimization](https://arxiv.org/abs/2302.08947)
+### 29. [Matsuo _et al._(ICASSP2023), Learning from Label Proportion with Online Pseudo-Label Decision by Regret Minimization](https://arxiv.org/abs/2302.08947)
   - a
   - a
-### 27. [Švihrová _et al._ (2025), *Designing digital health interventions with causal inference and multi-armed bandits: a review*](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1435917/full)
+### 30. [Švihrová _et al._ (2025), *Designing digital health interventions with causal inference and multi-armed bandits: a review*](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1435917/full)
   - ヘルスケア分野における Just-In-Time Interventiobn に多腕バンディット問題と因果解析を導入する方法論に関するレビュー論文。
   - 被験者の健康状態を逐次的にモニタリングし、適切なタイミングで"介入"して行動変容を促す枠組み。
-### 28. [Kumar _et al._ (2024), *Using adaptive bandit experiments to increase and investigate engagement in mental health*](https://ojs.aaai.org/index.php/AAAI/article/view/30328)
+### 31. [Kumar _et al._ (2024), *Using adaptive bandit experiments to increase and investigate engagement in mental health*](https://ojs.aaai.org/index.php/AAAI/article/view/30328)
   - メンタルヘルスにおける個別化医療にバンディット問題を適用することを目指したシミュレーション論文．
-### 29. [Gutiérrez _et al._ (2017), *A Multi-armed Bandit to Smartly Select a Training Set from Big Medical Data*](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_5)
+### 32. [Gutiérrez _et al._ (2017), *A Multi-armed Bandit to Smartly Select a Training Set from Big Medical Data*](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_5)
   - 大規模な医療画像データから訓練データセットを適切かつ効率的に選択する問題を多腕バンディット問題として定式化した。
   - 脳画像から得られる特徴量から年齢を予測する問題において、事前に観測できるメタデータから有用なサンプルを選択するという問題に落とし込んだ。
   - データをクラスタリングし、有益そうなクラスタを活用しつつ、他のクラスタも探索していく、というアプローチをとった。
   - 手法は線形回帰ベースで深層学習ではない
-### 30. [Zheng and Kwok (2017), *Follow the Moving Leader in Deep Learning*](https://proceedings.mlr.press/v70/zheng17a.html)
+### 33. [Zheng and Kwok (2017), *Follow the Moving Leader in Deep Learning*](https://proceedings.mlr.press/v70/zheng17a.html)
   - **谷口調査中**
-### 31. [Pandian _et al._(Scientific Reports, 2025), Enhancing lane detection in autonomous vehicles with multi-armed bandit ensemble learning](https://www.nature.com/articles/s41598-025-86743-z)
+### 34. [Pandian _et al._(Scientific Reports, 2025), Enhancing lane detection in autonomous vehicles with multi-armed bandit ensemble learning](https://www.nature.com/articles/s41598-025-86743-z)
   - a
   - a
 ================================
