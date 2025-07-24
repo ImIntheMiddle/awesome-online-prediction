@@ -17,7 +17,7 @@ Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mag
 > 
 > 日本語のみの文献には日本🗾を付しています．
 
-Status: ![](https://geps.dev/progress/100)
+Status: ![](https://geps.dev/progress/52)
 
 # 📑 Papers（論文）
 ## Awesome-Surveys（サーベイ）
@@ -189,7 +189,7 @@ Status: ![](https://geps.dev/progress/100)
 ### 53. 🌟[Vowpal Wabbit](https://vowpalwabbit.org/index.html)
   - A machine learning library implemented in various languages (with over 8,500 stars), primarily developed by Microsoft. It supports various learning paradigms, including online learning, and can handle online prediction-related stuff like contextual bandits."
   - Microsoftが中心となって開発している多言語実装の機械学習ライブラリ（8500スター超え）．オンライン学習を含む多様な学習様式に対応しており，Contextual bandits等を扱える．
-### 54. 🌟[MOA](https://moa.cms.waikato.ac.nz/)
+### 54. [MOA](https://moa.cms.waikato.ac.nz/)
   - An open-source Java framework designed for sequential data processing, boasting over 600 stars.
   - JAVAで実装された，逐次データ処理用のオープンソースフレームワーク．600スター超え． 
 ### 55. [CapyMOA](https://capymoa.org/)
@@ -256,7 +256,7 @@ Status: ![](https://geps.dev/progress/100)
   - ラグランジュの未定乗数法の意味，定理とその証明を解説した記事．
 
 ## Awesome-Gradient Descent (勾配降下法)
-### 76. [Gradient descent, how neural networks learn | Deep Learning Chapter 2](https://youtu.be/IHZwWFHWa-w?si=zRN94_SPD4hrQUUI)
+### 76. 🌟[Gradient descent, how neural networks learn | Deep Learning Chapter 2](https://youtu.be/IHZwWFHWa-w?si=zRN94_SPD4hrQUUI)
   - Awesome explanation of gradient descent in deep learning by 3Blue1Brown.
   - 3Blue1Brownによる，深層学習における勾配降下法についての解説．
 ### 77. [Optimization for Deep Learning (Momentum, RMSprop, AdaGrad, Adam)](https://youtu.be/NE88eqLngkg?si=qSmU5hpaeYiUtEZw)
@@ -271,31 +271,30 @@ Status: ![](https://geps.dev/progress/100)
 
 # 📚 Resources（学習リソース）
 ## Awesome-slides（スライド）
-### 80. [Online Convex Optimization and Its Surprising Applications](https://groups.oist.jp/sites/default/files/imce/u129210/mlss/Lecture_slide/MLSS2024_Francesco_Orabona.pdf)
-  - a
-  - a
+### 80. 🌟[Online Convex Optimization and Its Surprising Applications](https://groups.oist.jp/sites/default/files/imce/u129210/mlss/Lecture_slide/MLSS2024_Francesco_Orabona.pdf)
+  - Awesome slides from MLSS2024 by Orabona on online convex optimization algorithms such as OGD and OMD, and their applications to other fields. The content is quite mathematical but beneficial.
+  - MLSS2024における，OrabonaによるOGDやOMDといったオンライン凸最適化のアルゴリズムとその他分野への応用についてのスライド．かなり数学的な内容だが有益．
 ### 81. [Online Learning Methods for Big Data Analytics](http://www.mysmu.edu.sg/faculty/chhoi/libol/icdm14tuto/index.html)
-  - Awesome tutorial presented at IEEE ICDM2014
+  - Awesome tutorial presented at IEEE ICDM2014.
   - IEEE ICDM2014で発表されたチュートリアル講演．
 ### 82. [Learning Methods for Online Prediction Problems](https://users.cecs.anu.edu.au/~ssanner/MLSS2010/Bartlett1.pdf)
-  - a
-  - a
+  - Awesome lecture materials from UC Berkeley covering topics from the expert aggregation problem to online convex optimization, with applications such as portfolio optimization.
+  - UC Berkeleyにおける講義資料．エキスパート統合問題からオンライン凸最適化，応用としてポートフォリオ最適化までを扱っている．
 ### 83. [Follow the Leader: Theory and Applications](https://www.cs.ubc.ca/labs/lci/mlrg/slides/2019_summer_3_follow_the_leader.pdf)
   - Slides explaining Follow The Leader (FTL) and its derivative algorithms in online learning, along with their applications.
   - オンライン学習におけるFollow The Leader (FTL) やその派生アルゴリズム，そしてそれらの応用について解説したスライド．
 ### 84. 🗾[多腕バンディット問題の理論とアルゴリズム](https://ibisml.org/archive/ibis2014/ibis2014_bandit.pdf)
-  - a
-  - a
+  - 確率的，および敵対的バンディット問題における，報酬最大化（リグレット最小化）のためのアルゴリズムを解説したスライド．
 ### 85.🗾[オンライン予測の理論と応用](https://www.lab2.kuis.kyoto-u.ac.jp/keisan-genkai/reports/2005/zentai_1/04-takimoto.pdf)
   - 機械学習プロフェッショナルシリーズ「オンライン予測」（後述）の著者でもある瀧本英二先生によるスライド．オンライン予測におけるエキスパート統合問題とその応用例を取り上げている．
 
 ## Awesome-Textbooks（書籍）
-### 86. [Prediction, Learning, and Games](https://www.cambridge.org/core/books/prediction-learning-and-games/A05C9F6ABC752FAB8954C885D0065C8F)
-  - a
-  - a
+### 86. 🌟[Prediction, Learning, and Games](https://www.cambridge.org/core/books/prediction-learning-and-games/A05C9F6ABC752FAB8954C885D0065C8F)
+  - The bible on online learning, focusing on regret minimization and game-theoretic approaches to sequential decision-making
+  - リグレット最小化やゲーム理論を通じて逐次意思決定問題を扱う，オンライン学習のバイブル的書籍．
 ### 87. [Introduction to Online Convex Optimization](https://sites.google.com/view/intro-oco/)
-  - a
-  - a
+  - Awesome book by Hazan that covers a wide range of topics in the theory of online convex optimization.
+  - Hazanによる，オンライン凸最適化の理論に関する多様なトピックをカバーした入門書．
 ### 88. 🌟🗾[機械学習プロフェッショナルシリーズ 「オンライン予測」](https://www.kspub.co.jp/book/detail/1529229.html)
   - 著名な機械学習プロフェッショナルシリーズより，オンライン予測にフォーカスして書かれた一冊．エキスパート統合問題やオンライン凸最適化など，オンライン予測の主要な内容を一通り学べる．
 ### 89. 🗾[機械学習プロフェッショナルシリーズ 「オンライン機械学習」](https://www.kspub.co.jp/book/detail/1529038.html)
@@ -324,7 +323,7 @@ Status: ![](https://geps.dev/progress/100)
 ### 96. [Anomalies detection using River](https://medium.com/spikelab/anomalies-detection-using-river-398544d3536)
   - A blog post explaining anomaly detection using River, including practical code examples.
   - Riverを用いた異常検知について，実際のコードを交えて解説したブログ記事．
-### 97. 🗾[私のブックマーク「オンライン学習」](https://www.ai-gakkai.or.jp/resource/my-bookmark/my-bookmark_vol30-no5/)
+### 97. 🌟🗾[私のブックマーク「オンライン学習」](https://www.ai-gakkai.or.jp/resource/my-bookmark/my-bookmark_vol30-no5/)
   - 人工知能学会誌の連載「私のブックマーク」でオンライン学習を特集した際の記事．オンライン学習に関するサーベイやチュートリアル，関連学会，関連ライブラリをまとめている．
 ### 98. 🗾[私のブックマーク「多腕バンディット問題」](https://www.ai-gakkai.or.jp/resource/my-bookmark/my-bookmark_vol31-no5/)
   - 同じく「私のブックマーク」より，多腕バンディット問題を特集した回の記事．逐次的な意思決定であるバンディット問題に関するチュートリアルや関連学会，関連ライブラリ，重要論文をまとめている．
