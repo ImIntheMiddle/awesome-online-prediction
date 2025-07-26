@@ -119,12 +119,14 @@ Status: ![](https://geps.dev/progress/52)
 ### 32. [Kingma and Ba (ICLR2015), Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
   - a
   - a
+### X. [Luo & Schapire(COLT 2015), Achieving All with No Parameters: AdaNormalHedge](https://proceedings.mlr.press/v40/Luo15.pdf)
+  - エキスパート統合問題において，事前情報（ステップサイズやエキスパートの数など）を必要としないパラメータフリーなオンラインアルゴリズム「AdaNormalHedge」を提案
 ### 33. [Hazan _et al._ (ICML2017), Efficient Regret Minimization in Non-Convex Games](https://proceedings.mlr.press/v70/hazan17a.html)
-  - a
-  - a
+  - 非凸な損失関数を対象としたオンラインアルゴリズムの研究
+  - 時間平滑化した損失（過去k回の損失を平均したもの）から計算される射影勾配の大きさを基にした新しい尺度「局所リグレット」を定義し、それを効率的に最小化するアルゴリズムを提案
 ### 34. [Zhang _et al._(NeurIPS2018), Adaptive Online Learning in Dynamic Environments](https://arxiv.org/abs/1810.10815)
-  - a
-  - a
+  - 任意の比較対象シーケンスに対する動的リグレットの理論的な下限を初めて提示した研究
+  - 理論的な下限と一般的なOGDとの動的リグレットに乖離があることを指摘し，その解決策として異なるステップサイズを持つ複数のOGD（エキスパート）をメタアルゴリズムで適応的に統合する手法「Ader」を提案
 ### 35. [Finn _et al._ (ICLR2019), Online Meta-Learning](https://arxiv.org/abs/1902.08438)
   - a
   - a
