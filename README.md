@@ -17,7 +17,7 @@ Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mag
 > 
 > 日本語のみの文献には日本🗾を付しています．
 
-Status: ![](https://geps.dev/progress/84)
+Progress: ![](https://geps.dev/progress/100)
 
 # 📑 Papers（論文）
 ## Awesome-Surveys（サーベイ）
@@ -42,53 +42,53 @@ Status: ![](https://geps.dev/progress/84)
   - Awesome paper that introduces the accelerated gradient method achieving O(1/k²) convergence rate for convex optimization, a fundamental breakthrough in optimization theory.
   - 凸最適化でO(1/k²)収束率を達成する加速勾配法を導入し，最適化理論におけるブレークスルーを起こした論文．
 ### 7. [Littlestone (Machine Learning, 1988), Learning Quickly When Irrelevant Attributes Abound: A New Linear-Threshold Algorithm](https://link.springer.com/article/10.1023/A:1022869011914)
-  - a
-  - a
+  - Awesome paper that introduces the Winnow algorithm for online learning with sparse relevant features, providing mistake bounds independent of irrelevant attributes.
+  - 無関係な属性が多数存在する環境におけるスパースな関連特徴量に着目したWinnowアルゴリズムを提案し，無関係な属性の数に依存しない誤り回数の上界を与えた論文．
 ### 8. [Herbster and Warmuth (Machine Learning, 1998), Tracking the Best Expert](https://link.springer.com/article/10.1023/A:1007424614876)
-  - a
-  - a
-### 9. [Vovk (JCSS, 1998), A Game of Prediction with Expert Advice](https://www.sciencedirect.com/science/article/pii/S0022000097915567)
-  - a
-  - a
-### 10. [Kivinen and Warmuth (EuroCOLT1999), Averaging Expert Predictions](https://link.springer.com/chapter/10.1007/3-540-49097-3_13)
-  - a
-  - a
+  - Awesome paper that addresses tracking the best expert in changing environments, introducing algorithms for shifting regret minimization with optimal bounds.
+  - 変化する環境で最良エキスパートに追従し，最適なバウンドでリグレットを最小化するアルゴリズムを提案した論文．
+### 9. 🌟[Vovk (JCSS, 1998), A Game of Prediction with Expert Advice](https://www.sciencedirect.com/science/article/pii/S0022000097915567)
+  - Awesome paper that provides a comprehensive game-theoretic framework for prediction with expert advice, establishing fundamental theoretical foundations.
+  - Expert adviceからの予測のためのゲーム理論的な枠組みを与え，理論的基盤を確立した論文．
+### 10. 🌟[Kivinen and Warmuth (EuroCOLT1999), Averaging Expert Predictions](https://link.springer.com/chapter/10.1007/3-540-49097-3_13)
+  - Awesome paper that analyzes averaging strategies for expert predictions, providing theoretical guarantees for weighted averaging schemes.
+  - エキスパート統合問題における平均化戦略を解析し，重み付き平均化の理論保証を与えた論文．
 ### 11. [Kivinen and Warmuth (Machine Learning, 2001), Relative Loss Bounds for Multidimensional Regression Problems](https://link.springer.com/article/10.1023/A:1017938623079)
-  - a
-  - a
-### 12. [Zinkevich (ICML2003), Online Convex Programming and Generalized Infinitesimal Gradient Ascent](https://people.eecs.berkeley.edu/~brecht/cs294docs/week1/03.Zinkevich.pdf)
-  - a
-  - a
-### 13. [Kalai and Vempara (JCSS, 2005), Efficient algorithms for online decision problems](https://www.sciencedirect.com/science/article/pii/S0022000004001394) 
-  - a
-  - a
+  - Awesome paper that extends online learning theory from single outputs to multidimensional outputs, establishing the foundation for vector-valued online prediction problems.
+  - オンライン学習理論を単一出力から多次元出力に拡張し，ベクトル値オンライン予測問題の基礎を確立した論文．
+### 12. 🌟[Zinkevich (ICML2003), Online Convex Programming and Generalized Infinitesimal Gradient Ascent](https://people.eecs.berkeley.edu/~brecht/cs294docs/week1/03.Zinkevich.pdf)
+  - Awesome paper that introduces online convex optimization framework and proves O(√T) regret bounds for online gradient descent, foundational for modern online learning.
+  - オンライン凸最適化の枠組みを導入し，オンライン勾配降下法のO(√T)リグレット境界を証明した，オンライン学習の基礎的論文．
+### 13. 🌟[Kalai and Vempara (JCSS, 2005), Efficient algorithms for online decision problems](https://www.sciencedirect.com/science/article/pii/S0022000004001394) 
+  - Awesome paper that provides efficient algorithms for online decision problems using follow-the-perturbed-leader approach with polynomial-time guarantees.
+  - Follow-the-Perturbed-Leader戦略によるオンライン決定問題の効率的アルゴリズムを提案し，多項式時間保証を達成した論文．
 ### 14. [Crammer _et al._ (JMLR, 2006), Online Passive-Aggressive Algorithms](https://jmlr.org/papers/v7/crammer06a.html)
-  - a
-  - a
+  - Awesome paper introducing Passive-Aggressive algorithms for online learning that updates on mistakes while remaining passive on correct predictions.
+  - オンライン学習において，誤りに対して積極的更新を行い正解時は受動的に留まるPassive-Aggressiveアルゴリズムを提案した論文．
 ### 15. [Hazan _et al._ (Machine Learning, 2007), Logarithmic Regret Algorithms for Online Convex Optimization](https://link.springer.com/article/10.1007/s10994-007-5016-8)
-  - a
-  - a
+  - Awesome paper that achieves logarithmic regret for online convex optimization using strong convexity assumptions, showing significant improvement of bound.
+  - 強凸性の仮定のもとでオンライン凸最適化により対数リグレットを達成し，バウンドを大幅に改善した論文．
 ### 16. [Cesa-Bianchi _et al._ (Machine Learning, 2007), Improved second-order bounds for prediction with expert advice](https://arxiv.org/abs/math/0602629)
-  - a
-  - a
+  - Awesome paper that provides tighter regret bounds for expert advice problems by incorporating variance information, showing that online learning can perform much better than worst-case guarantees.
+  - エキスパート問題において分散情報を活用してより厳密なリグレット境界を与え，オンライン学習によって最悪ケース保証よりもはるかに良い性能を発揮できることを示した論文．
 ### 17. [Crammer _et al._ (EMNLP2009), Multi-Class Confidence Weighted Algorithms](https://aclanthology.org/D09-1052/)
-  - a
-  - a
+  - Awesome paper that extends confidence-weighted learning to multi-class problems for better online classification performance.
+  - 信頼度重み学習を多クラス問題に拡張し，より良いオンライン分類性能を実現した論文．
 ### 18. 🌟[Crammer _et al._ (NeurIPS2009), Adaptive Regularization of Weight Vectors](https://papers.nips.cc/paper_files/paper/2009/hash/8ebda540cbcc4d7336496819a46a1b68-Abstract.html)
-  - a
-  - a
+  - Awesome paper that introduces adaptive regularization for weight vectors in online learning, automatically adjusting regularization based on past performance.
+  - オンライン学習において，過去の性能に基づいて重みベクトルを適応的に正則化する手法を提案した論文．
 ### 19. 🌟[Duchi _et al._ (JMLR, 2010), Adaptive Subgradient Methods for Online Learning and Stochastic Optimization](https://jmlr.org/papers/v12/duchi11a.html)
-  - a
-  - a
+  - Awesome paper that introduces AdaGrad algorithm, revolutionizing online optimization by automatically adapting learning rates based on historical gradients for improved convergence.
+  - 過去の勾配に基づいて学習率を自動調整するAdaGradを提案した，オンライン最適化における革命的論文．
 ### 20. [McDonald _et al._ (NAACL HLT2010), Distributed Training Strategies for the Structured Perceptron](https://aclanthology.org/N10-1069.pdf)
-  - a
-  - a
+  - Awesome paper that develops distributed training strategies for structured perceptron, enabling parallel online learning for structured prediction tasks.
+  - 構造化パーセプトロンの分散学習戦略を開発し，構造化予測タスクの並列オンライン学習を実現した論文．
 ### 21. [Chu _et al._ (KDD2011), Unbiased online active learning in data streams](https://dl.acm.org/doi/10.1145/2020408.2020444)
-  - a
-  - a
+  - Awesome paper that addresses unbiased online active learning in data streams, providing theoretical guarantees for selective sampling strategies.
+  - データストリームに対する不偏オンライン能動学習に取り組み，選択的サンプリング戦略の理論保証を与えた論文．
 ### 22. [Shalev-Shwartz _et al._ (Mathematical Programming, 2017), Pegasos: primal estimated sub-gradient solver for SVM](https://link.springer.com/article/10.1007/s10107-010-0420-4)
-  - a
-  - a
+  - Awesome paper that introduces Pegasos algorithm for SVM training with convergence guarantees.
+  - SVM（サポートベクターマシン）の学習のためのアルゴリズムであるPegasosを提案し，収束保証を与えた論文．
 ### 23. 🌟[Cesa-Bianchi and Lugosi (JCSS, 2012), Combinatorial bandits](https://www.sciencedirect.com/science/article/pii/S0022000012000219)
   - Awesome paper that introduces combinatorial bandits framework, extending multi-armed bandits to combinatorial action spaces with efficient algorithms.
   - 組合せ論的バンディットの枠組みを導入し，多腕バンディットを組合せ行動空間に拡張して効率的アルゴリズムを提供した論文．
