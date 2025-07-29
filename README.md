@@ -36,53 +36,53 @@ Status: ![](https://geps.dev/progress/52)
 
 ## Awesome-Theoretical Research（基礎研究）
 ### 5. [Hannan (Contributions to the Theory of Games, 1957), Approximation to Bayes risk in repeated plays](http://www-stat.wharton.upenn.edu/~steele/Resources/Projects/SequenceProject/Hannan.pdf)
-  - a
-  - a
-### 6. [Nesterov (Soviet Mathematics Doklady, 1983), A Meyhod of Solving a Convex Programming Problem with Convergence Rate O(1/k²)](https://hengshuaiyao.github.io/papers/nesterov83.pdf)
-  - a
-  - a
+  -   This paper provides a foundational framework for sequential decision-making under uncertainty by introducing a strategy for repeated games. Its key contribution is demonstrating that the regret—the difference between the cumulative loss of the sequential strategy and that of the best single fixed strategy chosen in hindsight—is provably bounded and grows at a sublinear rate of $O(\sqrt{N})$, where $N$ is the number of repetitions. This work established a formal basis for regret minimization, a central concept in online prediction, and provided one of the first concrete algorithms with a performance guarantee against an arbitrary sequence of outcomes.
+  - この論文は，繰り返しゲームにおける戦略を導入することにより，不確実性の下での逐次意思決定の基礎的な枠組みを提供した．その中心的な貢献は，リグレット（逐次戦略の累積損失と，後から見て最善であった単一の固定戦略の損失との差）が，証明可能に有界であり，繰り返し回数を $N$ として $O(\sqrt{N})$ という準線形なレートで増大することを示した点にある．この研究は，オンライン予測の中心概念であるリグレット最小化の形式的な基礎を築き，任意の結果系列に対する性能保証を持つ最初の具体的なアルゴリズムの一つを提示した．
+### 6. [Nesterov (Soviet Mathematics Doklady, 1983), A Meyhod of Solving a Convex Programming Problem with Convergence Rate $O(1/k^2)$](https://hengshuaiyao.github.io/papers/nesterov83.pdf)
+  - This paper introduces what is now known as Nesterov's Accelerated Gradient (NAG) method, a landmark achievement in convex optimization. Its role in online prediction is a fundamental building block for creating highly efficient algorithms. By providing a method that achieves a faster convergence rate of $O(1/k^2)$ for smooth convex functions, it enables online learning algorithms to adapt much more rapidly and achieve better performance (i.e., lower regret), forming the theoretical basis for many state-of-the-art methods in online convex optimization.
+  - この論文は，現在ネステロフの加速勾配法として知られる凸最適化における画期的な成果を導入したものである．オンライン予測におけるこの論文の役割は，非常に効率的なアルゴリズムを作成するための基本的な構成要素である．平滑な凸関数に対して $O(1/k^2)$ という速い収束率を達成する手法を提供することによって，オンライン学習アルゴリズムがより迅速に適応し，より良いパフォーマンス（すなわち，より低いリグレット）を達成することを可能にし，オンライン凸最適化における多くの最先端手法の理論的基礎を形成している．
 ### 7. [Littlestone (Machine Learning, 1988), Learning Quickly When Irrelevant Attributes Abound: A New Linear-Threshold Algorithm](https://link.springer.com/article/10.1023/A:1022869011914)
-  - a
-  - a
+  - This paper introduces the Winnow algorithm, which is a seminal contribution to online learning. Its primary importance lies in providing a mistake-bound model that is highly effective in high-dimensional settings where many attributes are irrelevant. The number of mistakes Winnow makes grows only logarithmically with the number of irrelevant attributes, making it significantly more efficient than previous algorithms like the Perceptron in such scenarios. This established a foundational approach for handling sparse target concepts efficiently within the online learning framework.
+  - この論文は，オンライン学習への独創的な貢献である Winnow アルゴリズムを導入したものである．その主な重要性は，多くの属性が無関係である高次元の状況において非常に効果的な誤り回数保証付きのモデルを提供した点にある．Winnow が犯す誤りの回数は，無関係な属性の数に対して対数的にしか増加しないため，このようなシナリオにおいてパーセプトロンのような以前のアルゴリズムよりも著しく効率的である．これにより，オンライン学習の枠組みの中で，スパースなターゲット概念を効率的に扱うための基礎的なアプローチを確立した．
 ### 8. [Herbster and Warmuth (Machine Learning, 1998), Tracking the Best Expert](https://link.springer.com/article/10.1023/A:1007424614876)
-  - a
-  - a
+  - This paper extends the online prediction framework to non-stationary environments, introducing an algorithm that tracks the best-performing expert whose identity may change over time, thus moving beyond simpler models that assume a single, static best expert.
+  - この論文は，時間の経過とともに性能が最も良い専門家が変化しうる非定常環境へオンライン予測の枠組みを拡張した．単一の静的な最良エキスパートを仮定する単純なモデルから脱却し，変化する最良エキスパートを追跡するアルゴリズムを導入したものである．
 ### 9. [Vovk (JCSS, 1998), A Game of Prediction with Expert Advice](https://www.sciencedirect.com/science/article/pii/S0022000097915567)
-  - a
-  - a
+  - This paper establishes a foundational game-theoretic framework for online prediction, where the problem is modeled as a game between a predictor and an adversary. It introduces the concept of "prediction with expert advice" and provides a powerful "Aggregating Algorithm" that guarantees the predictor's loss to be close to the loss of the best expert in hindsight, thereby offering a robust theoretical underpinning for the field.
+  - この論文は，予測問題を予測者と敵対者の間のゲームとしてモデル化する，オンライン予測のための基礎的なゲーム理論的枠組みを確立したものである．「エキスパートの助言を伴う予測」という概念を導入し，予測者の損失が事後的に見て最良のエキスパートの損失に近くなることを保証する強力な「集約アルゴリズム」を提供し，この分野に強固な理論的基礎を与えた，
 ### 10. [Kivinen and Warmuth (EuroCOLT1999), Averaging Expert Predictions](https://link.springer.com/chapter/10.1007/3-540-49097-3_13)
-  - a
-  - a
+  - This paper is a fundamental research in online learning algorithms that generate their own predictions by averaging expert predictions, specifically proposing a method where the algorithm's prediction is a weighted average of the experts' predictions, with weights that decrease exponentially according to the loss incurred by each expert, and demonstrating that the algorithm's additional loss is bounded by the logarithm of the number of experts.
+  - この論文は，専門家の予測を平均することで自己の予測を生成するオンライン学習アルゴリズムに関する基礎研究である．具体的には，アルゴリズムの予測が専門家の予測の重み付き平均であり，その重みは各専門家が被った損失に応じて指数関数的に減少し，アルゴリズムの追加損失が専門家数の対数によって束縛されることを示したものである．
 ### 11. [Kivinen and Warmuth (Machine Learning, 2001), Relative Loss Bounds for Multidimensional Regression Problems](https://link.springer.com/article/10.1023/A:1017938623079)
-  - a
-  - a
+  - This paper extends the theoretical analysis of online learning algorithms, previously limited to one-dimensional output, to multidimensional output, and specifically derived relative loss bounds for multidimensional generalized linear regression problems. This provided a more practical evaluation criterion for multidimensional problems by eliminating probabilistic assumptions about the data and comparing the algorithm's performance to the best offline predictor.
+  - この論文は，それまで一次元出力に限定されていたオンライン学習アルゴリズムの理論的解析を多次元出力へと拡張し，特に多次元の一般化線形回帰問題に対して相対的な損失限界を導出した．これにより，データの確率的な仮定を排除し，アルゴリズムの性能を最良のオフライン予測器と比較するという，より実践的な評価基準を多次元問題に提供した．
 ### 12. [Zinkevich (ICML2003), Online Convex Programming and Generalized Infinitesimal Gradient Ascent](https://people.eecs.berkeley.edu/~brecht/cs294docs/week1/03.Zinkevich.pdf)
-  - a
-  - a
+  - This paper introduces the "Online Convex Programming" framework for uniformly handling many online prediction problems and showed that a simple gradient-descent-based algorithm can achieve a low regret of $O(\sqrt{T})$ compared to the best single decision in hindsight.
+  - この論文は，多くのオンライン予測問題を統一的に扱うための「オンライン凸計画法」というフレームワークを提案し，単純な勾配降下法に基づくアルゴリズムで，後知恵で最適であった単一の決定と比較して $O(\sqrt{T})$ という低いリグレットを達成できることを示した．
 ### 13. [Kalai and Vempara (JCSS, 2005), Efficient algorithms for online decision problems](https://www.sciencedirect.com/science/article/pii/S0022000004001394) 
-  - a
-  - a
+  - This paper introduces the "Follow the Perturbed Leader" (FPL) algorithm, a simple and computationally efficient method for online decision problems. Its key contribution is demonstrating that by adding random noise to the simple strategy of following the leader, it's possible to achieve performance (regret bounds) competitive with much more complex algorithms, especially in situations with a vast number of experts or actions. This opened the door for applying theoretically guaranteed online learning to many problems where it was previously computationally impractical.
+  - この論文は，「Follow the Perturbed Leader」（FPL）アルゴリズムという，オンライン決定問題に対する単純かつ計算効率の良い手法を導入した．その主要な貢献は，これまでの最善手を選択するという単純な戦略にランダムなノイズを加えるだけで，特にエキスパートや行動の選択肢が膨大な状況において，はるかに複雑なアルゴリズムに匹敵する性能（リグレット限界）を達成できることを示した点にある．これにより，計算が非現実的であった多くの問題に対して，理論的に性能が保証されたオンライン学習を適用する道を拓いた．
 ### 14. [Crammer _et al._ (JMLR, 2006), Online Passive-Aggressive Algorithms](https://jmlr.org/papers/v7/crammer06a.html)
-  - a
-  - a
+  - This paper proposes a new framework in online learning called "Passive-Aggressive" (PA) algorithms. Its core lies in performing updates based on the margin (prediction confidence): if the prediction is correct and has a sufficient margin, it remains "passive" and does nothing, but if the margin is insufficient, it acts "aggressively" by making the minimal update required to satisfy the margin constraint. This simple and clear approach provided a powerful online learning method that is computationally efficient and has theoretical performance guarantees (regret bounds), especially for large-scale datasets and data streams.
+  - この論文は，オンライン学習における「パッシブ・アグレッシブ」（PA）アルゴリズムという新たな枠組みを提唱した．その核心は，マージン（予測の信頼度）に基づいて更新を行う点にあり，予測が正しく，かつ十分なマージンがある場合は「パッシブ」に何もしないが，マージンが不十分な場合は「アグレッシブ」に，マージン制約を満たす最小限の更新を行うというものである．この単純明快なアプローチにより，特に大規模なデータセットやストリームデータに対して，計算効率が高く，かつ理論的な性能保証(リグレット限界)を持つ強力なオンライン学習手法を提供した．
 ### 15. [Hazan _et al._ (Machine Learning, 2007), Logarithmic Regret Algorithms for Online Convex Optimization](https://link.springer.com/article/10.1007/s10994-007-5016-8)
-  - a
-  - a
+  - This paper significantly improves upon the previous general regret bound of $O(\sqrt{T})$ in online convex optimization. Its core contribution lies in being the first to propose an algorithm that achieves logarithmic regret, $O(\log{T})$, under the condition that the loss functions possess the property of "strong convexity." This demonstrates that for a specific (yet important) class of problems, online learning can converge to the optimal solution much more rapidly, thus opening a new frontier in regret analysis.
+  - この論文は，それまでのオンライン凸最適化における一般的なリグレット限界であった $O(\sqrt{T})$ を大幅に改善する．その核心的な貢献は，損失関数が「強凸性」という性質を持つ場合に限定すれば，$O(\log{T})$ という対数的なリグレットを達成できるアルゴリズムを初めて提案した点にある，これにより，特定の（しかし重要な）問題クラスにおいては，オンライン学習がはるかに速く最適解に収束することを示し，リグレット解析の新たな地平を切り拓いた．
 ### 16. [Cesa-Bianchi _et al._ (Machine Learning, 2007), Improved second-order bounds for prediction with expert advice](https://arxiv.org/abs/math/0602629)
-  - a
-  - a
+  - This paper re-evaluates the performance of online prediction with expert advice using a more precise measure called "second-order bounds." Whereas previous first-order bounds related regret only to the cumulative loss of the best expert, this research derived tighter regret bounds by taking into account the "variance" of the experts' losses. This demonstrated that in situations where expert losses are stable, the algorithm can perform significantly better than previously thought, adding a new layer of depth to the performance analysis of online learning algorithms.
+  - この論文は，エキスパートからの助言によるオンライン予測の性能評価を，より精密な「二次の限界 (second-order bounds) 」という尺度で捉え直した．従来の一次の限界がリグレットを最良のエキスパートの累積損失のみに関連付けていたのに対し，この研究ではエキスパートたちの損失の「分散」を考慮に入れることで，よりタイトなリグレット限界を導出した．これにより，エキスパートたちの損失が安定している状況では，アルゴリズムが従来考えられていたよりもはるかに優れた性能を発揮することを示し，オンライン学習アルゴリズムの性能解析に新たな深みを与えたものである．
 ### 17. [Crammer _et al._(EMNLP2009), Multi-Class Confidence Weighted Algorithms](https://aclanthology.org/D09-1052/)
-  - a
-  - a
+  - This paper extends "Confidence-Weighted" (CW) learning, a sophisticated evolution of Passive-Aggressive algorithms, to the multi-class classification setting. Its groundbreaking aspect is that instead of updating a single parameter vector, it models parameter uncertainty with a multivariate Gaussian distribution and adjusts the magnitude of updates according to its "confidence" (the inverse of the variance). By updating the weights of low-confidence (infrequently observed) features more aggressively and high-confidence weights more conservatively, it enables more informed and efficient learning, especially for high-dimensional, sparse data common in fields like Natural Language Processing, significantly influencing subsequent online learning research.
+  - この論文は，それまでのパッシブ・アグレッシブアルゴリズムなどを発展させ，「信頼度加重」（Confidence-Weighted, CW）学習という，より洗練されたオンライン学習手法を多クラス分類問題へと拡張した．単一のパラメータベクトルを更新するのではなく，パラメータの不確実性を多変量正規分布でモデル化し，その「信頼度」(分散の逆数)に応じて更新の度合いを調整するという点が画期的である，信頼度が低い(あまり観測されていない)特徴の重みは大きく，信頼度が高い重みは小さく更新することで，特に自然言語処理などで見られる高次元で疎なデータに対して，より情報量に基づいた効率的な学習を可能にし，その後のオンライン学習研究に大きな影響を与えた．
 ### 18. [Crammer _et al._ (NeurIPS2009), Adaptive Regularization of Weight Vectors](https://papers.nips.cc/paper_files/paper/2009/hash/8ebda540cbcc4d7336496819a46a1b68-Abstract.html)
-  - a
-  - a
+  - This paper introduces the "Adaptive Regularization of Weight Vectors" (AROW) algorithm, which overcomes a key limitation of preceding methods like Confidence-Weighted (CW) learning: vulnerability to noisy data. Its primary role is to significantly improve robustness by incorporating a soft-margin objective while inheriting the concept of "confidence" from CW (representing parameter uncertainty with a covariance matrix). This established a more practical algorithm that enjoys the benefits of second-order adaptive updates while remaining stable against mislabeled examples.
+  - この論文は，先行研究である信頼度加重 (CW) 学習の課題，すなわちノイズの多いデータへの脆弱性を克服する「重みベクトルの適応的正則化」(AROW) アルゴリズムを提案した．その主要な役割は，CW が持つ「信頼度」の概念（パラメータの不確実性を共分散行列で表現する点）を引き継ぎつつ，ソフトマージン目的を導入することで，頑健性を大幅に向上させた点にある．これにより，信頼度に基づいた適応的な更新という二次のオンライン学習手法の利点を享受しながら，誤ったラベルを持つサンプルに対しても安定した学習を可能にし，より実用的なアルゴリズムを確立したものである．
 ### 19. [Duchi _et al._ (JMLR, 2010), Adaptive Subgradient Methods for Online Learning and Stochastic Optimization](https://jmlr.org/papers/v12/duchi11a.html)
-  - a
-  - a
+  - This paper shatters the limitations of previous online learning methods using fixed learning rates by proposing "Adaptive Subgradient Methods," most notably its prime example, "AdaGrad," which adaptively adjusts the learning rate for each individual parameter (feature). Its core innovation lies in automatically adjusting the learning rate based on the magnitude of past gradients, applying smaller learning rates to frequently occurring features and larger rates to infrequent ones. This mechanism dramatically improved learning efficiency and performance, especially for the high-dimensional, sparse data common in fields like Natural Language Processing, and laid the foundation for many subsequent adaptive learning rate algorithms (e.g., RMSProp, Adam).
+  - この論文は，それまでのオンライン学習で一般的であった固定の学習率を用いる手法の限界を打ち破り，個々のパラメータ（特徴）ごとに学習率を適応的に調整する「適応的劣勾配法」(Adaptive Subgradient Methods)，特にその代表格である「AdaGrad」を提案した．その核心は，過去の勾配の大きさに応じて学習率を自動で調整する点にあり，頻繁に現れる特徴には小さな学習率を，稀にしか現れない特徴には大きな学習率を適用する，この仕組みにより，特に自然言語処理などで頻出する高次元で疎なデータに対して，学習の効率と性能を劇的に向上させ，その後の多くの適応的学習率アルゴリズム (例:RMSProp, Adam) の礎を築いたものである．
 ### 20. [McDonald _et al._(NAACL HLT2010), Distributed Training Strategies for the Structured Perceptron](https://aclanthology.org/N10-1069.pdf)
-  - a
-  - a
+  - This paper is the first to systematically propose and compare "distributed training strategies" for the structured perceptron, for which single-machine training was previously the mainstream, to efficiently train it on large-scale datasets. Its key role lies in introducing various distributed strategies, from simple mini-batch learning to the more sophisticated iterative parameter mixing, and experimentally clarifying their impact on training speed and final prediction performance. By doing so, it showed a concrete path for adapting online learning algorithms to the era of big data and contributed significantly to the subsequent development of distributed learning research.
+  - この論文は，それまで単一のマシンでの学習が主流であった構造化パーセプトロンを，大規模なデータセットに対して効率的に学習させるための「分散学習戦略」を初めて体系的に提案・比較した．その重要な役割は，単純なミニバッチ学習から，より洗練された反復パラメータ混合 (iterative parameter mixing) まで，様々な分散戦略を導入し，それらが学習速度と最終的な予測性能に与える影響を実験的に明らかにした点にある．これにより，オンライン学習アルゴリズムをビッグデータの時代に適応させるための具体的な道筋を示し，後の分散学習研究の発展に大きく貢献した．
 ### 21. [Chu _et al._(KDD2011), Unbiased online active learning in data streams](https://dl.acm.org/doi/10.1145/2020408.2020444)
   - a
   - a
