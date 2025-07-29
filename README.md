@@ -17,7 +17,7 @@ Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mag
 > 
 > 日本語のみの文献には日本🗾を付しています．
 
-Status: ![](https://geps.dev/progress/72)
+Status: ![](https://geps.dev/progress/84)
 
 # 📑 Papers（論文）
 ## Awesome-Surveys（サーベイ）
@@ -36,11 +36,11 @@ Status: ![](https://geps.dev/progress/72)
 
 ## Awesome-Theoretical Research（基礎研究）
 ### 5. [Hannan (Contributions to the Theory of Games, 1957), Approximation to Bayes risk in repeated plays](http://www-stat.wharton.upenn.edu/~steele/Resources/Projects/SequenceProject/Hannan.pdf)
-  - a
-  - a
-### 6. [Nesterov (Soviet Mathematics Doklady, 1983), A Meyhod of Solving a Convex Programming Problem with Convergence Rate O(1/k²)](https://hengshuaiyao.github.io/papers/nesterov83.pdf)
-  - a
-  - a
+  - Awesome paper that introduces Hannan consistency and provides fundamental approximation results for Bayes risk in repeated play games.
+  - 反復ゲームにおけるベイズリスクの近似理論を提供し，Hannan consistencyの概念を導入した基礎的論文．
+### 6. 🌟[Nesterov (Soviet Mathematics Doklady, 1983), A Meyhod of Solving a Convex Programming Problem with Convergence Rate O(1/k²)](https://hengshuaiyao.github.io/papers/nesterov83.pdf)
+  - Awesome paper that introduces the accelerated gradient method achieving O(1/k²) convergence rate for convex optimization, a fundamental breakthrough in optimization theory.
+  - 凸最適化でO(1/k²)収束率を達成する加速勾配法を導入し，最適化理論におけるブレークスルーを起こした論文．
 ### 7. [Littlestone (Machine Learning, 1988), Learning Quickly When Irrelevant Attributes Abound: A New Linear-Threshold Algorithm](https://link.springer.com/article/10.1023/A:1022869011914)
   - a
   - a
@@ -74,10 +74,10 @@ Status: ![](https://geps.dev/progress/72)
 ### 17. [Crammer _et al._ (EMNLP2009), Multi-Class Confidence Weighted Algorithms](https://aclanthology.org/D09-1052/)
   - a
   - a
-### 18. [Crammer _et al._ (NeurIPS2009), Adaptive Regularization of Weight Vectors](https://papers.nips.cc/paper_files/paper/2009/hash/8ebda540cbcc4d7336496819a46a1b68-Abstract.html)
+### 18. 🌟[Crammer _et al._ (NeurIPS2009), Adaptive Regularization of Weight Vectors](https://papers.nips.cc/paper_files/paper/2009/hash/8ebda540cbcc4d7336496819a46a1b68-Abstract.html)
   - a
   - a
-### 19. [Duchi _et al._ (JMLR, 2010), Adaptive Subgradient Methods for Online Learning and Stochastic Optimization](https://jmlr.org/papers/v12/duchi11a.html)
+### 19. 🌟[Duchi _et al._ (JMLR, 2010), Adaptive Subgradient Methods for Online Learning and Stochastic Optimization](https://jmlr.org/papers/v12/duchi11a.html)
   - a
   - a
 ### 20. [McDonald _et al._ (NAACL HLT2010), Distributed Training Strategies for the Structured Perceptron](https://aclanthology.org/N10-1069.pdf)
@@ -89,71 +89,71 @@ Status: ![](https://geps.dev/progress/72)
 ### 22. [Shalev-Shwartz _et al._ (Mathematical Programming, 2017), Pegasos: primal estimated sub-gradient solver for SVM](https://link.springer.com/article/10.1007/s10107-010-0420-4)
   - a
   - a
-### 23. [Cesa-Bianchi and Lugosi (JCSS, 2012), Combinatorial bandits](https://www.sciencedirect.com/science/article/pii/S0022000012000219)
-  - a
-  - a
-### 24. [Suehiro _et al._ (ALT2012), Online Prediction under Submodular Constraints](https://api.lib.kyushu-u.ac.jp/opac_download_md/1932327/alt12.pdf)
-  - a
-  - a
-### 25. [Arora _et al._ (Theory of Computing, 2012), The Multiplicative Weights Update Method: a Meta-Algorithm and Applications](https://theoryofcomputing.org/articles/v008a006/)
-  - a
-  - a
-### 26. [Wang _et al._ (ICML2012), Exact Soft Confidence-Weighted Learning](https://arxiv.org/abs/1206.4612)
-  - a
-  - a
-### 27. [Bubeck and Slivkins (COLT2012), The best of both worlds: stochastic and adversarial bandits](http://sbubeck.com/COLT12_BS.pdf)
-  - a
-  - a
-### 28. [Neu and Bartók (ALT2013), An efficient algorithm for learning with semi-bandit feedback](https://arxiv.org/abs/1305.2732)
-  - a
-  - a
-### 29. [Ho _et al._(NeurIPS2013), More Effective Distributed ML via a Stale Synchronous Parallel Parameter Server](https://fid3024.github.io/papers/2013%20-%20More%20Effective%20Distributed%20ML%20via%20a%20Stale%20Sychronous%20Parallel%20Parameter%20Server.pdf)
-  - a
-  - a
-### 30. [McMahan _et al._ (KDD2013), Ad Click Prediction: a View from the Trenches](https://research.google/pubs/ad-click-prediction-a-view-from-the-trenches/)
-  - a
-  - a
-### 31. [Gaillard _et al._ (COLT2014), A Second-order Bound with Excess Losses](https://arxiv.org/abs/1402.2044)
-  - a
-  - a
-### 32. [Kingma and Ba (ICLR2015), Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
-  - a
-  - a
-### 33. [Luo and Schapire (COLT2015), Achieving All with No Parameters: AdaNormalHedge](https://proceedings.mlr.press/v40/Luo15.pdf)
+### 23. 🌟[Cesa-Bianchi and Lugosi (JCSS, 2012), Combinatorial bandits](https://www.sciencedirect.com/science/article/pii/S0022000012000219)
+  - Awesome paper that introduces combinatorial bandits framework, extending multi-armed bandits to combinatorial action spaces with efficient algorithms.
+  - 組合せ論的バンディットの枠組みを導入し，多腕バンディットを組合せ行動空間に拡張して効率的アルゴリズムを提供した論文．
+### 24. 🌟[Suehiro _et al._ (ALT2012), Online Prediction under Submodular Constraints](https://api.lib.kyushu-u.ac.jp/opac_download_md/1932327/alt12.pdf)
+  - Awesome paper that studies online prediction under submodular constraints, providing regret bounds for constrained online learning problems.
+  - 劣モジュラ制約下でのオンライン予測に取り組み，制約付きオンライン学習問題のリグレット境界を与えた論文．
+### 25. [Wang _et al._ (ICML2012), Exact Soft Confidence-Weighted Learning](https://arxiv.org/abs/1206.4612)
+  - Awesome paper that develops exact soft confidence-weighted learning, providing precise probabilistic updates for online classification with theoretical guarantees.
+  - オンライン分類における，理論保証付きのより優れた確率的更新として「Exact Soft Confidence-Weighted Learning」を提案した論文．
+### 26. 🌟[Bubeck and Slivkins (COLT2012), The best of both worlds: stochastic and adversarial bandits](http://sbubeck.com/COLT12_BS.pdf)
+  - Awesome paper that achieves the best of both worlds in bandits, providing algorithms that perform well in both stochastic and adversarial settings simultaneously.
+  - バンディット問題で確率的・敵対的両設定で同時に最良性能を達成した論文．
+### 27. [Neu and Bartók (ALT2013), An efficient algorithm for learning with semi-bandit feedback](https://arxiv.org/abs/1305.2732)
+  - Awesome paper that provides efficient algorithms for semi-bandit feedback, extending bandit learning to partial information settings with multiple simultaneous actions.
+  - セミバンディットフィードバックから学習する効率的なアルゴリズムを提供し，バンディット学習を複数同時行動を伴う部分情報設定に拡張した論文．
+### 28. [Gaillard _et al._ (COLT2014), A Second-order Bound with Excess Losses](https://arxiv.org/abs/1402.2044)
+  - Awesome paper that derives second-order regret bounds with excess losses, providing tighter analysis for online learning algorithms using variance information.
+  - 過剰損失を用いた2次リグレット境界を導出し，分散情報を活用したオンライン学習アルゴリズムにより厳密な解析を与えた論文．
+### 29. 🌟[Kingma and Ba (ICLR2015), Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
+  - Awesome paper that introduces Adam optimizer combining advantages of AdaGrad and RMSprop, becoming the most widely used adaptive optimization method.
+  - AdaGradとRMSpropの利点を組み合わせたAdamオプティマイザーを導入し，最も広く使用される適応的最適化手法となった論文．
+### 30. [Luo and Schapire (COLT2015), Achieving All with No Parameters: AdaNormalHedge](https://proceedings.mlr.press/v40/Luo15.pdf)
   - Awesome paper that proposes AdaNormalHedge, a truly parameter-free algorithm for expert advice that simultaneously achieves multiple objectives without prior information including adaptive regret and unknown competitor performance. 
   - エキスパート統合問題において，事前情報（ステップサイズやエキスパートの数など）を必要としないパラメータフリーなオンラインアルゴリズム「AdaNormalHedge」を提案．
-### 34. [Hazan _et al._ (ICML2017), Efficient Regret Minimization in Non-Convex Games](https://proceedings.mlr.press/v70/hazan17a.html)
+### 31. [Hazan _et al._ (ICML2017), Efficient Regret Minimization in Non-Convex Games](https://proceedings.mlr.press/v70/hazan17a.html)
   - Awesome paper that studies online algorithms for non-convex loss functions, defining a new measure called "local regret" based on projected gradient magnitudes from time-smoothed losses and proposing algorithms to efficiently minimize it.
   - 非凸な損失関数を対象としたオンラインアルゴリズムの研究．時間平滑化した損失（過去k回の損失を平均したもの）から計算される射影勾配の大きさを基にした新しい尺度「局所リグレット」を定義し，それを効率的に最小化するアルゴリズムを提案．
-  ### 35. 🌟[Zheng and Kwok (ICML2017), Follow the Moving Leader in Deep Learning](https://proceedings.mlr.press/v70/zheng17a.html)
+  ### 32. 🌟[Zheng and Kwok (ICML2017), Follow the Moving Leader in Deep Learning](https://proceedings.mlr.press/v70/zheng17a.html)
   - Awesome paper that proposes Follow the Moving Leader (FTML), a variant of FTRL for deep learning optimization that adapts quickly to changes by weighting recent samples more heavily. 
   - 深層学習の最適化において，最近のサンプルをより重く重み付けすることで変化に素早く適応するFollow the Moving Leader (FTML) アルゴリズムを提案した論文．
-### 36. 🌟[Zhang _et al._ (NeurIPS2018), Adaptive Online Learning in Dynamic Environments](https://arxiv.org/abs/1810.10815)
+### 33. 🌟[Zhang _et al._ (NeurIPS2018), Adaptive Online Learning in Dynamic Environments](https://arxiv.org/abs/1810.10815)
   - Awesome paper that first establishes theoretical lower bounds for dynamic regret against arbitrary comparison sequences and proposes "Ader" which adaptively combines multiple OGD experts with different step sizes using a meta-algorithm.
   - 任意の比較対象シーケンスに対する動的リグレットの理論的な下限を初めて提示した研究．理論的な下限と一般的なOGDとの動的リグレットに乖離があることを指摘し，その解決策として異なるステップサイズを持つ複数のOGD（エキスパート）をメタアルゴリズムで適応的に統合する手法「Ader」を提案．
-### 37. [Finn _et al._ (ICLR2019), Online Meta-Learning](https://arxiv.org/abs/1902.08438)
+### 34. [Finn _et al._ (ICLR2019), Online Meta-Learning](https://arxiv.org/abs/1902.08438)
   - Awesome paper that introduces online meta-learning which merges ideas from meta-learning and online learning, proposing the follow the meta leader algorithm extending MAML with O(log T) regret guarantee.
   - メタ学習とオンライン学習のアイデアを融合したオンラインメタ学習を導入し，MAMLを拡張したfollow the meta leaderアルゴリズムをO(log T)のregret保証とともに提案した論文．
-### 38. [Zhao _et al._ (NeurIPS2020), Dynamic Regret of Convex and Smooth Functions](https://arxiv.org/abs/2007.03479)
+### 35. [Zhao _et al._ (NeurIPS2020), Dynamic Regret of Convex and Smooth Functions](https://arxiv.org/abs/2007.03479)
   - Awesome paper that enhances dynamic regret bounds by exploiting smoothness conditions, replacing the dependence on T with problem-dependent quantities like gradient variation and comparator loss, making bounds adaptive to problem difficulty.
   - 凸かつ滑らかな関数に対する動的リグレットを研究し，滑らかさ条件を活用してTへの依存を勾配変動や比較対象の損失などの問題依存量に置き換え，問題の難易度に適応的な境界を提案した論文．
-### 39. [Ito (NeurIPS2021), On Optimal Robustness to Adversarial Corruption in Online Decision Problems](https://arxiv.org/abs/2109.10963)
+### 36. [Ito (NeurIPS2021), On Optimal Robustness to Adversarial Corruption in Online Decision Problems](https://arxiv.org/abs/2109.10963)
   - Awesome paper that studies optimal robustness to adversarial corruption in online decision problems, analyzing how online algorithms can maintain performance guarantees when a fraction of inputs are adversarially corrupted.
   - オンライン決定問題における敵対的摂動に対する最適な頑健性を研究し，入力の一部に敵対的な摂動が加わった場合でもオンラインアルゴリズムが性能保証を維持する方法を解析した論文．
-### 40. 🌟[Zimmert and Seldin (JMLR, 2021), Tsallis-INF: An Optimal Algorithm for Stochastic and Adversarial Bandits](https://arxiv.org/abs/1807.07623)
+### 37. 🌟[Zimmert and Seldin (JMLR, 2021), Tsallis-INF: An Optimal Algorithm for Stochastic and Adversarial Bandits](https://arxiv.org/abs/1807.07623)
   - Awesome paper that derives Tsallis-INF algorithm using online mirror descent with Tsallis entropy regularization, achieving optimal regret in both stochastic and adversarial multi-armed bandits.
   - Tsallisエントロピー正則化を用いたオンラインミラー降下法に基づくTsallis-INFアルゴリズムを導出し，確率的・敵対的多腕バンディット両方で最適なリグレットを達成した論文．
-### 41. 🌟[Baby _et al._ (NeurIPS2023), Online Label Shift: Optimal Dynamic Regret meets Practical Algorithms](https://neurips.cc/virtual/2023/poster/71994)
+### 38. 🌟[Baby _et al._ (NeurIPS2023), Online Label Shift: Optimal Dynamic Regret meets Practical Algorithms](https://neurips.cc/virtual/2023/poster/71994)
   - Awesome paper that tackles online learning under changing data distributions, developing practical algorithms that automatically adapt to distribution shifts without prior knowledge while achieving optimal theoretical guarantees.
   - データ分布が変化するオンライン学習環境において，分布シフトに事前知識なしで自動適応する実用的アルゴリズムを開発し，最適な理論保証を達成した論文．
-### 42. [Dai _et al._ (CVPR2025), Label Shift Meets Online Learning: Ensuring Consistent Adaptation with Universal Dynamic Regret](https://openaccess.thecvf.com/content/CVPR2025/html/Dai_Label_Shift_Meets_Online_Learning_Ensuring_Consistent_Adaptation_with_Universal_CVPR_2025_paper.html)
+### 39. [Dai _et al._ (CVPR2025), Label Shift Meets Online Learning: Ensuring Consistent Adaptation with Universal Dynamic Regret](https://openaccess.thecvf.com/content/CVPR2025/html/Dai_Label_Shift_Meets_Online_Learning_Ensuring_Consistent_Adaptation_with_Universal_CVPR_2025_paper.html)
   - Awesome paper that addresses label shift in online learning settings by constructing a novel convex risk estimator and enhanced online algorithm, achieving minimax optimal universal dynamic regret.
   - オンライン学習環境でのラベルシフト問題に対して新しい凸リスク推定器とオンラインアルゴリズムを構築し，minimax最適な汎用動的リグレットを達成した論文．
 
 ## Awesome-Applied Research（応用研究）
-### 43. 🌟[Bashratat _et al._ (CVPR2008), Learning object motion patterns for anomaly detection and improved object detection](https://ieeexplore.ieee.org/document/4587510)
+### 40. 🌟[Bashratat _et al._ (CVPR2008), Learning object motion patterns for anomaly detection and improved object detection](https://ieeexplore.ieee.org/document/4587510)
   - Awesome paper that learns object motion patterns in surveillance videos for anomaly detection and improved object detection.
   - 監視映像における応用として，物体の動きパターンをオンライン学習し，異常検知と物体検出を改善する手法を提案した論文．
+### 41. [Arora _et al._ (Theory of Computing, 2012), The Multiplicative Weights Update Method: a Meta-Algorithm and Applications](https://theoryofcomputing.org/articles/v008a006/)
+  - Awesome paper that presents multiplicative weights update as a meta-algorithm with broad applications across computer science and optimization.
+  - 乗法的重み更新をメタアルゴリズムとして捉え，その幅広い応用を示した論文．
+### 42. [Ho _et al._(NeurIPS2013), More Effective Distributed ML via a Stale Synchronous Parallel Parameter Server](https://fid3024.github.io/papers/2013%20-%20More%20Effective%20Distributed%20ML%20via%20a%20Stale%20Sychronous%20Parallel%20Parameter%20Server.pdf)
+  - Awesome paper that introduces Stale Synchronous Parallel Parameter Server for distributed machine learning, improving efficiency through asynchronous updates.
+  - 分散機械学習のための「Stale Synchronous Parallel Parameter Server」を導入し，非同期更新により効率性を向上させた論文．
+### 43. [McMahan _et al._ (KDD2013), Ad Click Prediction: a View from the Trenches](https://research.google/pubs/ad-click-prediction-a-view-from-the-trenches/)
+  - Awesome paper that presents practical insights for ad click prediction from large-scale deployment, bridging theory and real-world online learning applications.
+  - 大規模なデプロイ環境における広告クリック予測に取り組み，オンライン学習の理論と実世界における応用を橋渡しした論文．
 ### 44. [Grnarova _et al._ (ICLR2018), An Online Learning Approach to Generative Adversarial Networks](https://arxiv.org/abs/1706.03269)
   - Awesome paper that applies online learning techniques to GAN training for improved stability.
   - GANの訓練にオンライン学習手法を適用して安定性を向上させた論文．
