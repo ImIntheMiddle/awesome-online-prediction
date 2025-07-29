@@ -28,11 +28,11 @@ Status: ![](https://geps.dev/progress/52)
   - This lecture note introduces various decision-making problems, including online learning and prediction, and explains the theoretical foundations of online reinforcement learning.
   - オンライン学習・予測を含めた各種の意思決定問題について紹介し，オンライン強化学習の理論的基礎までを解説した講義ノート．
 ### 3. 🌟[Shalev-Shwartz (Foundations and Trends in Machine Learning, 2011), Online Learning and Online Convex Optimization](https://www.cs.huji.ac.il/~shais/papers/OLsurvey.pdf)
-  - a
-  - a
+  - This paper provides a foundational and comprehensive survey of the theory of online learning, with a special focus on the framework of online convex optimization, which has become a cornerstone of the field. It serves as a key reference for understanding how various online learning algorithms can be unified and analyzed through the central concept of convexity.
+  - オンライン学習の理論に関する基礎的かつ包括的な概観を提供するものであり，特にこの分野の基礎となっているオンライン凸最適化のフレームワークに焦点を当てている．様々なオンライン学習アルゴリズムが，凸性という中心的な概念を通じていかに統合され，分析されうるかを理解するための重要な参考文献として位置づけられる．
 ### 4. [Orabona (2019), A Modern Introduction to Online Learning](https://arxiv.org/abs/1912.13213)
-  - a
-  - a
+  - This textbook introduces the fundamental concepts and algorithms of online learning from the perspective of online convex optimization, without requiring prior specialized knowledge.
+  - 専門的な予備知識を必要とせずに，オンライン凸最適化の観点からオンライン学習の基本概念とアルゴリズムを紹介する教科書．
 
 ## Awesome-Theoretical Research（基礎研究）
 ### 5. [Hannan (Contributions to the Theory of Games, 1957), Approximation to Bayes risk in repeated plays](http://www-stat.wharton.upenn.edu/~steele/Resources/Projects/SequenceProject/Hannan.pdf)
