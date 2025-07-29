@@ -17,7 +17,7 @@ Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mag
 > 
 > 日本語のみの文献には日本🗾を付しています．
 
-Status: ![](https://geps.dev/progress/52)
+Status: ![](https://geps.dev/progress/55)
 
 # 📑 Papers（論文）
 ## Awesome-Surveys（サーベイ）
@@ -28,11 +28,11 @@ Status: ![](https://geps.dev/progress/52)
   - This lecture note introduces various decision-making problems, including online learning and prediction, and explains the theoretical foundations of online reinforcement learning.
   - オンライン学習・予測を含めた各種の意思決定問題について紹介し，オンライン強化学習の理論的基礎までを解説した講義ノート．
 ### 3. 🌟[Shalev-Shwartz (Foundations and Trends in Machine Learning, 2011), Online Learning and Online Convex Optimization](https://www.cs.huji.ac.il/~shais/papers/OLsurvey.pdf)
-  - a
-  - a
+  - This survey provides a comprehensive overview of online learning and online convex optimization.
+  - オンライン学習とオンライン凸最適化に関する包括的なサーベイ論文．
 ### 4. [Orabona (2019), A Modern Introduction to Online Learning](https://arxiv.org/abs/1912.13213)
-  - a
-  - a
+  - Awesome paper that introduces the basic concepts of online learning through a modern view of online convex optimization, covering everything from fundamental concepts to dynamic regret.
+  - オンライン凸最適化の現代的視点からオンライン学習の基本概念を紹介し，基本概念から動的リグレットまでを広く扱っている．
 
 ## Awesome-Theoretical Research（基礎研究）
 ### 5. [Hannan (Contributions to the Theory of Games, 1957), Approximation to Bayes risk in repeated plays](http://www-stat.wharton.upenn.edu/~steele/Resources/Projects/SequenceProject/Hannan.pdf)
@@ -147,9 +147,9 @@ Status: ![](https://geps.dev/progress/52)
   - a
 
 ## Awesome-Applied Research（応用研究）
-### 41. [Bashratat _et al._(CVPR2008), Learning object motion patterns for anomaly detection and improved object detection](https://ieeexplore.ieee.org/document/4587510)
-  - a
-  - a
+### 41. 🌟[Bashratat _et al._(CVPR2008), Learning object motion patterns for anomaly detection and improved object detection](https://ieeexplore.ieee.org/document/4587510)
+  - Awesome paper that learns object motion patterns in surveillance videos for anomaly detection and improved object detection.
+  - 監視映像における応用として，物体の動きパターンをオンライン学習し，異常検知と物体検出を改善する手法を提案した論文．
 ### 42. [Grnarova _et al._ (ICLR2018), An Online Learning Approach to Generative Adversarial Networks](https://arxiv.org/abs/1706.03269)
   - a
   - a
