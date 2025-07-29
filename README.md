@@ -221,7 +221,6 @@ Progress: ![](https://geps.dev/progress/100)
 ### 64. [L 27 | Cauchy Schwarz Inequality | Probability & Statistics | Digital Communication](https://www.youtube.com/watch?v=14-JD5KiUz0)
   - Awesome YouTube video on Cauchy-Schwarz inequality.
   - コーシー＝シュワルツの不等式について解説したYouTube動画．
-  - チェルノフ限界について解説したYouTube動画．
 ### 65. [Jensen's Inequality](https://www.youtube.com/watch?v=u0_X2hX6DWE)
   - Awesome YouTube video on Jensen's inequality.
   - イェンセンの不等式について解説したYouTube動画．
