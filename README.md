@@ -2,7 +2,7 @@
 
 A curated list of awesome online-prediction papers, tools, and resources.
 
-Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mage **R**ecognition and **U**nderstanding ([MIRU2025](https://cvim.ipsj.or.jp/MIRU2025/index-en.html)) Wakate program.
+Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mage **R**ecognition and **U**nderstanding ([MIRU2025](https://cvim.ipsj.or.jp/MIRU2025/index-en.html)) Young Researchers Program.
 
 [画像の認識・理解シンポジウム（MIRU2025）](https://cvim.ipsj.or.jp/MIRU2025/index.html)で企画された [若手プログラム](https://sites.google.com/view/miru2025wakate) における，グループ５による取り組みの成果です．
 
@@ -17,7 +17,7 @@ Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mag
 > 
 > 日本語のみの文献には日本🗾を付しています．
 
-Status: ![](https://geps.dev/progress/55)
+Status: ![](https://geps.dev/progress/64)
 
 # 📑 Papers（論文）
 ## Awesome-Surveys（サーベイ）
@@ -124,61 +124,59 @@ Status: ![](https://geps.dev/progress/55)
 ### 34. [Hazan _et al._ (ICML2017), Efficient Regret Minimization in Non-Convex Games](https://proceedings.mlr.press/v70/hazan17a.html)
   - 非凸な損失関数を対象としたオンラインアルゴリズムの研究
   - 時間平滑化した損失（過去k回の損失を平均したもの）から計算される射影勾配の大きさを基にした新しい尺度「局所リグレット」を定義し、それを効率的に最小化するアルゴリズムを提案
-### 35. [Zhang _et al._ (NeurIPS2018), Adaptive Online Learning in Dynamic Environments](https://arxiv.org/abs/1810.10815)
+  ### 35. 🌟[Zheng and Kwok (ICML2017), Follow the Moving Leader in Deep Learning](https://proceedings.mlr.press/v70/zheng17a.html)
+  - Awesome paper that proposes Follow the Moving Leader (FTML), a variant of FTRL for deep learning optimization that adapts quickly to changes by weighting recent samples more heavily. 
+  - 深層学習の最適化において，最近のサンプルをより重く重み付けすることで変化に素早く適応するFollow the Moving Leader (FTML) アルゴリズムを提案した論文．
+### 36. [Zhang _et al._ (NeurIPS2018), Adaptive Online Learning in Dynamic Environments](https://arxiv.org/abs/1810.10815)
   - 任意の比較対象シーケンスに対する動的リグレットの理論的な下限を初めて提示した研究
   - 理論的な下限と一般的なOGDとの動的リグレットに乖離があることを指摘し，その解決策として異なるステップサイズを持つ複数のOGD（エキスパート）をメタアルゴリズムで適応的に統合する手法「Ader」を提案
-### 36. [Finn _et al._ (ICLR2019), Online Meta-Learning](https://arxiv.org/abs/1902.08438)
+### 37. [Finn _et al._ (ICLR2019), Online Meta-Learning](https://arxiv.org/abs/1902.08438)
   - a
   - a
-### 37. [Zhao _et al._ (NeurIPS2020), Dynamic Regret of Convex and Smooth Functions](https://arxiv.org/abs/2007.03479)
+### 38. [Zhao _et al._ (NeurIPS2020), Dynamic Regret of Convex and Smooth Functions](https://arxiv.org/abs/2007.03479)
   - a
   - a
-### 38. [Ito (NeurIPS2021), On Optimal Robustness to Adversarial Corruption in Online Decision Problems](https://arxiv.org/abs/2109.10963)
+### 39. [Ito (NeurIPS2021), On Optimal Robustness to Adversarial Corruption in Online Decision Problems](https://arxiv.org/abs/2109.10963)
   - a
   - a
-### 39. [Zimmert and Seldin (JMLR, 2021), Tsallis-INF: An Optimal Algorithm for Stochastic and Adversarial Bandits](https://arxiv.org/abs/1807.07623)
+### 40. [Zimmert and Seldin (JMLR, 2021), Tsallis-INF: An Optimal Algorithm for Stochastic and Adversarial Bandits](https://arxiv.org/abs/1807.07623)
   - a
   - a
-### 40. [Baby _et al._ (NeurIPS2023), Online Label Shift: Optimal Dynamic Regret meets Practical Algorithms](https://neurips.cc/virtual/2023/poster/71994)
+### 41. [Baby _et al._ (NeurIPS2023), Online Label Shift: Optimal Dynamic Regret meets Practical Algorithms](https://neurips.cc/virtual/2023/poster/71994)
   - a
   - a
-### 41. [Dai _et al._ (CVPR2025), Label Shift Meets Online Learning: Ensuring Consistent Adaptation with Universal Dynamic Regret](https://openaccess.thecvf.com/content/CVPR2025/html/Dai_Label_Shift_Meets_Online_Learning_Ensuring_Consistent_Adaptation_with_Universal_CVPR_2025_paper.html)
+### 42. [Dai _et al._ (CVPR2025), Label Shift Meets Online Learning: Ensuring Consistent Adaptation with Universal Dynamic Regret](https://openaccess.thecvf.com/content/CVPR2025/html/Dai_Label_Shift_Meets_Online_Learning_Ensuring_Consistent_Adaptation_with_Universal_CVPR_2025_paper.html)
   - a
   - a
 
 ## Awesome-Applied Research（応用研究）
-### 42. 🌟[Bashratat _et al._ (CVPR2008), Learning object motion patterns for anomaly detection and improved object detection](https://ieeexplore.ieee.org/document/4587510)
+### 43. 🌟[Bashratat _et al._ (CVPR2008), Learning object motion patterns for anomaly detection and improved object detection](https://ieeexplore.ieee.org/document/4587510)
   - Awesome paper that learns object motion patterns in surveillance videos for anomaly detection and improved object detection.
   - 監視映像における応用として，物体の動きパターンをオンライン学習し，異常検知と物体検出を改善する手法を提案した論文．
-### 43. [Grnarova _et al._ (ICLR2018), An Online Learning Approach to Generative Adversarial Networks](https://arxiv.org/abs/1706.03269)
+### 44. [Grnarova _et al._ (ICLR2018), An Online Learning Approach to Generative Adversarial Networks](https://arxiv.org/abs/1706.03269)
   - Awesome paper that applies online learning techniques to GAN training for improved stability.
   - GANの訓練にオンライン学習手法を適用して安定性を向上させた論文．
-### 44. [Song _et al._ (Machine Learning, 2024), No Regret Sample Selection with Noisy Labels](https://arxiv.org/abs/2003.03179)
+### 45. [Song _et al._ (Machine Learning, 2024), No Regret Sample Selection with Noisy Labels](https://arxiv.org/abs/2003.03179)
   - Awesome paper that proposes adaptive k-set selection for training DNNs with noisy labels while providing theoretical regret bounds. 
-  - ノイジーラベルを持つデータでのDNN訓練において，理論的なregret保証を持つ適応的k-set選択手法を提案した論文．
-### 45. [Song _et al._ (WACV2020), Adaptive Aggregation of Arbitrary Online Trackers with a Regret Bound](https://openaccess.thecvf.com/content_WACV_2020/papers/Song_Adaptive_Aggregation_of_Arbitrary_Online_Trackers_with_a_Regret_Bound_WACV_2020_paper.pdf)
-  - a
-  - a
-### 46. [Matsuo _et al._ (ICASSP2023), Learning from Label Proportion with Online Pseudo-Label Decision by Regret Minimization](https://arxiv.org/abs/2302.08947)
-  - a
-  - a
-### 47. [Švihrová _et al._ (2025), *Designing digital health interventions with causal inference and multi-armed bandits: a review*](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1435917/full)
-  - ヘルスケア分野における Just-In-Time Interventiobn に多腕バンディット問題と因果解析を導入する方法論に関するレビュー論文。
-  - 被験者の健康状態を逐次的にモニタリングし、適切なタイミングで"介入"して行動変容を促す枠組み。
-### 48. [Kumar _et al._ (AAAI2024), Using adaptive bandit experiments to increase and investigate engagement in mental health](https://ojs.aaai.org/index.php/AAAI/article/view/30328)
-  - メンタルヘルスにおける個別化医療にバンディット問題を適用することを目指したシミュレーション論文．
-### 49. [Gutiérrez _et al._ (2017), A Multi-armed Bandit to Smartly Select a Training Set from Big Medical Data](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_5)
-  - 大規模な医療画像データから訓練データセットを適切かつ効率的に選択する問題を多腕バンディット問題として定式化した。
-  - 脳画像から得られる特徴量から年齢を予測する問題において、事前に観測できるメタデータから有用なサンプルを選択するという問題に落とし込んだ。
-  - データをクラスタリングし、有益そうなクラスタを活用しつつ、他のクラスタも探索していく、というアプローチをとった。
-  - 手法は線形回帰ベースで深層学習ではない
-### 50. [Zheng and Kwok (2017), Follow the Moving Leader in Deep Learning](https://proceedings.mlr.press/v70/zheng17a.html)
-  - **谷口調査中**
-  - a
-  - a
+  - ノイジーラベルを持つデータでのDNN訓練において，理論的なリグレット保証を持つ適応的k-set選択手法を提案した論文．
+### 46. [Song _et al._ (WACV2020), Adaptive Aggregation of Arbitrary Online Trackers with a Regret Bound](https://openaccess.thecvf.com/content_WACV_2020/papers/Song_Adaptive_Aggregation_of_Arbitrary_Online_Trackers_with_a_Regret_Bound_WACV_2020_paper.pdf)
+  - Awesome paper that proposes delayed-Hedge algorithm for aggregating arbitrary online trackers with theoretical regret guarantees in adversarial environments.
+  - 敵対的環境において理論的リグレット保証を持つdelayed-Hedgeアルゴリズムを用い，任意のオンライントラッカーを集約する手法を提案した論文．
+### 47. [Matsuo _et al._ (ICASSP2023), Learning from Label Proportion with Online Pseudo-Label Decision by Regret Minimization](https://arxiv.org/abs/2302.08947)
+  - Awesome paper that proposes online pseudo-labeling with regret minimization for Learning from Label Proportions, effectively handling large bag sizes.
+  - Learning from Label Proportions (LLP) において，リグレット最小化による擬似ラベルのオンライン決定手法を提案した論文．大きなbagサイズでも効果的に動作する．
+### 48. [Švihrová _et al._ (Frontiers in Digital Health, 2025), Designing digital health interventions with causal inference and multi-armed bandits: a review](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1435917/full)
+  - Awesome paper that reviews how to design digital health interventions using multi-armed bandits and causal inference for Just-In-Time Adaptive Interventions in behavioral change support systems.
+  - ヘルスケア分野におけるJust-In-Time Interventionに多腕バンディット問題と因果解析を導入する方法論に関するレビュー論文．被験者の健康状態を逐次的にモニタリングし，適切なタイミングで"介入"して行動変容を促す枠組み．
+### 49. [Kumar _et al._ (AAAI2024), Using adaptive bandit experiments to increase and investigate engagement in mental health](https://ojs.aaai.org/index.php/AAAI/article/view/30328)
+  - Awesome paper that presents a software system using Thompson Sampling bandit algorithms for adaptive text-message-based mental health interventions, evaluated with 1100 users to simultaneously improve engagement and collect data for analysis.
+  - メンタルヘルスにおける個別化医療においてThompson Samplingを用いたバンディットアルゴリズムを適用し，シミュレーションと1100人のユーザで実験システムを評価した論文．
+### 50. [Gutiérrez _et al._ (MICCAI2017), A Multi-armed Bandit to Smartly Select a Training Set from Big Medical Data](https://link.springer.com/chapter/10.1007/978-3-319-66179-7_5)
+  - Awesome paper that formulates efficient training set selection from large-scale medical imaging data as a multi-armed bandit problem, using clustering-based exploration-exploitation for age prediction from brain images.
+  - 大規模な医療画像データから訓練データセットを適切かつ効率的に選択する問題を多腕バンディット問題として定式化し，脳画像から得られる特徴量から年齢を予測する問題に取り組んだ論文．事前に観測できるメタデータから有用なサンプルを選択するという問題に落とし込み，データをクラスタリングして有益そうなクラスタを活用しつつ、他のクラスタも探索していく、というアプローチをとった．手法は線形回帰ベースで深層学習ではない．
 ### 51. [Pandian _et al._ (Scientific Reports, 2025), Enhancing lane detection in autonomous vehicles with multi-armed bandit ensemble learning](https://www.nature.com/articles/s41598-025-86743-z)
-  - a
-  - a
+  - Awesome paper that introduces Multi-Armed Bandit Ensemble (MAB-Ensemble) for lane detection in autonomous vehicles, dynamically selecting optimal CNN models based on environmental conditions using Thompson sampling.
+  - 自動運転車のレーン検出において，Thompson Samplingを用いて環境条件に基づいて最適なCNNモデルを動的選択するMulti-Armed Bandit Ensemble (MAB-Ensemble)を提案した論文．
 
 # 🧰 Tools（ツール）
 ## Awesome-Libraries（ライブラリ）
