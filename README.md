@@ -1,21 +1,17 @@
 # 😎 Awesome-Online-Prediction [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome online-prediction papers, tools, and resources.
+A curated list of awesome online-prediction papers, tools, and resources. <br/>
+Created and hosted by the members of group 5 in [the 28th **M**eeting on **I**mage **R**ecognition and **U**nderstanding (MIRU2025)](https://cvim.ipsj.or.jp/MIRU2025/index-en.html) [Young Researchers Program](https://sites.google.com/view/miru2025wakate).
 
-Created and hosted by the members of group 5 in the 28th **M**eeting on **I**mage **R**ecognition and **U**nderstanding ([MIRU2025](https://cvim.ipsj.or.jp/MIRU2025/index-en.html)) Young Researchers Program.
-
-[画像の認識・理解シンポジウム（MIRU2025）](https://cvim.ipsj.or.jp/MIRU2025/index.html)で企画された [若手プログラム](https://sites.google.com/view/miru2025wakate) における，グループ５による取り組みの成果です．
-
-オンライン予測に関する重要な論文，ライブラリ，学習のためのリソースなどをまとめています．
+[第28回画像の認識・理解シンポジウム（MIRU2025）](https://cvim.ipsj.or.jp/MIRU2025/index.html)で企画された [若手プログラム](https://sites.google.com/view/miru2025wakate) における，グループ 5 による取り組みの成果である．<br/>
+オンライン予測に関する重要な論文，ライブラリ，学習のためのリソースなどをまとめている．
 
 > [!TIP]
-> Super-awesome ones are marked with a star🌟.
-> 
+> Super-awesome ones are marked with a star🌟. <br/>
 > Japanese-only references are marked with Japan🗾.
 > 
-> 特に重要・有用と思われるものには星印🌟を付しています．
-> 
-> 日本語のみの文献には日本🗾を付しています．
+> 特に重要・有用と思われるものには星印🌟を付している．<br/>
+> 日本語のみの文献には日本🗾を付している．
 
 Progress: ![](https://geps.dev/progress/100)
 
