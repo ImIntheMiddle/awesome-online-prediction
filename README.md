@@ -13,8 +13,6 @@ Created and hosted by the members of group 5 in [the 28th **M**eeting on **I**ma
 > 特に重要・有用と思われるものには星印🌟を付している．<br/>
 > 日本語のみの文献には日本🗾を付している．
 
-Progress: ![](https://geps.dev/progress/100)
-
 # 📑 Papers（論文）
 ## Awesome-Surveys（サーベイ）
 ### 1. 🌟[Hoi _et al._ (Neurocomputing, 2018), Online Learning: A Comprehensive Survey](https://arxiv.org/abs/1802.02871)
